@@ -1,0 +1,35 @@
+.sets-container {
+	border: 1px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0;
+	margin: 0;
+}
+
+.sets-content {
+	flex: 1 0 300px;
+	border: 1px solid blue;
+}
+
+.sets-setName {
+	font-size: 2em;
+	width: 100%;
+	border: 1px solid red;
+}
+
+.sets-faction {
+	font-size: 1.5em;
+	list-style-type: none;
+}
+
+.sets-faction a {
+	letter-spacing: 1.5px;
+}
+
+.sets-faction a:hover {
+	color: green;
+}
+
+ul {
+	padding-left: 10px;
+}

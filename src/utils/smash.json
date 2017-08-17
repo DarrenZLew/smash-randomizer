@@ -1,0 +1,3853 @@
+{
+  "data": {
+    "sets": [
+      {
+        "name": "Core Set",
+        "factions": [
+          {
+            "title": "Aliens",
+            "description": "Return minions to their owners' hands, gain victory points instantly, and manipulate bases.",
+            "image": "https://vignette4.wikia.nocookie.net/smashup/images/5/50/Aliens.png",
+            "deck": {
+              "description": "Aliens love to mess with people, and they love to mess with other players even more. From bouncing minions back to players’ hands, to replacing bases in play, aliens are out to have a great time, at any planet’s expense.",
+              "minions": [
+                {
+                  "quantity": "1",
+                  "name": "Supreme Overlord",
+                  "power": "5",
+                  "ability": "You may return a minion to its owner's hand."
+                },
+                {
+                  "quantity": "2",
+                  "name": "Invader",
+                  "power": "3",
+                  "ability": "Gain 1 VP."
+                },
+                {
+                  "quantity": "3",
+                  "name": "Scout",
+                  "power": "3",
+                  "ability": "Special: After this base is scored, you may place this minion into your hand instead of the discard pile."
+                },
+                {
+                  "quantity": "4",
+                  "name": "Collector",
+                  "power": "2",
+                  "ability": "You may return a minion of power 3 or less on this base to its owner's hand."
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "1",
+                  "name": "Abduction",
+                  "ability": "Return a minion to its owner's hand. Play an extra minion."
+                },
+                {
+                  "quantity": "2",
+                  "name": "Beam Up",
+                  "ability": "Return a minion to its owner's hand."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Crop Circles",
+                  "ability": "Choose a base. Return each minion on that base to its owner's hand."
+                },
+                {
+                  "quantity": "2",
+                  "name": "Disintegrator",
+                  "ability": "Place a minion of power 3 or less on the botton of its owner's deck."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Invasion",
+                  "ability": "Move a minion to another base."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Jammed Signal",
+                  "ability": "Play on a base. Ongoing: All players ignore this base's ability."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Probe",
+                  "ability": "Look at another player's hand and choose a minion in it. That player discards that minion."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Terraforming",
+                  "ability": "Search the base deck for a base. Swap it with a base in play (discard all actions attached to it). Shuffle the base deck. You may play an extra minion on the new base."
+                }
+              ]
+            }
+          },
+          {
+            "title": "Dinosaurs",
+            "description": "Play high-powered minions and actions with some protection and destruction.",
+            "image": "https://vignette4.wikia.nocookie.net/smashup/images/6/68/Dinosaurs.png",
+            "deck": {
+              "description": "If there's one thing dinosaurs know how to do... actually, with a brain the size of a walnut, they don't really know how to do anything. But they are big. And—holy cats!—someone gave them lasers!",
+              "minions": [
+                {
+                  "quantity": "1",
+                  "name": "King Rex",
+                  "power": "7",
+                  "ability": "(no ability)"
+                },
+                {
+                  "quantity": "2",
+                  "name": "Laseratops",
+                  "power": "4",
+                  "ability": "Destroy a minion of power 2 or less on this base."
+                },
+                {
+                  "quantity": "3",
+                  "name": "Armor Stego",
+                  "power": "3",
+                  "ability": "Ongoing: Has +2 power during other players' turns."
+                },
+                {
+                  "quantity": "4",
+                  "name": "War Raptor",
+                  "power": "2",
+                  "ability": "Ongoing: Gains +1 power for each War Raptor on this base (including this one)."
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "2",
+                  "name": "Augmentation",
+                  "ability": "One minion gains +4 power until the end of your turn."
+                },
+                {
+                  "quantity": "2",
+                  "name": "Howl",
+                  "ability": "Each of your minions gains +1 power until the end of your turn."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Natural Selection",
+                  "ability": "Choose one of your minions on a base. Destroy a minion there with less power than yours."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Rampage",
+                  "ability": "Reduce the breakpoint of a base by the power of one of your minions on that base until the end of the turn."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Survival of the Fittest",
+                  "ability": "Destroy the lowest-power minion (you choose in case of a tie) on each base with a higher-power minion."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Tooth and Claw... and Guns",
+                  "ability": "Play on a minion. Ongoing: If an ability would affect this minion, destroy this card and the ability does not affect this minion."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Upgrade",
+                  "ability": "Play on a minion. Ongoing: This minion has +2 power."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Wildlife Preserve",
+                  "ability": "Play on a base. Ongoing: Your minions here are not affected by other players' actions."
+                }
+              ]
+            }
+          },
+          {
+            "title": "Ninjas",
+            "description": "Destroy minions and sneak onto bases at the last second using special abilities.",
+            "image": "https://vignette4.wikia.nocookie.net/smashup/images/3/35/Ninjas.png",
+            "deck": {
+              "description": "If you can see a ninja, chances are you're already dead (and if you can see them while dead, skip ahead to the zombie section). I don't want to give away the secrets or anything, but most of what this faction does is sneaky, happens fast, and at the last second. So look out for that.",
+              "minions": [
+                {
+                  "quantity": "1",
+                  "name": "Ninja Master",
+                  "power": "5",
+                  "ability": "You may destroy a minion on this base."
+                },
+                {
+                  "quantity": "2",
+                  "name": "Tiger Assassin",
+                  "power": "4",
+                  "ability": "You may destroy a minion of power 3 or less on this base."
+                },
+                {
+                  "quantity": "3",
+                  "name": "Shinobi",
+                  "power": "3",
+                  "ability": "Special: Before a base scores, you may play this minion there. You can only use one Shinobi's ability per base."
+                },
+                {
+                  "quantity": "4",
+                  "name": "Ninja Acolyte",
+                  "power": "2",
+                  "ability": "Special: On your turn, if you have not yet played a minion, you may return this minion to your hand and play an extra minion on this base."
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "1",
+                  "name": "Assassination",
+                  "ability": "Play on a minion. Ongoing: Destroy this minion at the end of the turn."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Disguise",
+                  "ability": "Choose one or two of your minions on one base. Play an equal number of extra minions there, and return the chosen minions to your hand."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Hidden Ninja",
+                  "ability": "Special: Before a base scores, play a minion there."
+                },
+                {
+                  "quantity": "2",
+                  "name": "Infiltrate",
+                  "ability": "Play on a base. Destroy an action that has been played here. Ongoing: You may ignore this base's ability until the start of your next turn."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Poison",
+                  "ability": "Play on a minion. Destroy any number of actions on it. Ongoing: This minion has -4 power. (Minions have minimum power of 0)."
+                },
+                {
+                  "quantity": "2",
+                  "name": "Seeing Stars",
+                  "ability": "Destroy a minion of power 3 or less."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Smoke Bomb",
+                  "ability": "Play on one of your minions. Ongoing: This minion is not affected by other players' actions. Destroy this card at the start of your turn."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Way of Deception",
+                  "ability": "Move one of your minions to another base."
+                }
+              ]
+            }
+          },
+          {
+            "title": "Pirates",
+            "description": "Move around from base to base and destroy weak minions.",
+            "image": "https://vignette4.wikia.nocookie.net/smashup/images/f/fe/Pirates.png",
+            "deck": {
+              "description": "You know what's better than roving the high seas? Roving anywhere you want. Pirates buckle their swashes in every port, and you'll walk the plank if you don't like it.",
+              "minions": [
+                {
+                  "quantity": "1",
+                  "name": "Pirate King",
+                  "power": "5",
+                  "ability": "Special: Before a base scores, you may move this minion there."
+                },
+                {
+                  "quantity": "2",
+                  "name": "Buccaneer",
+                  "power": "4",
+                  "ability": "Special: If this minion would be destroyed, move it to another base instead."
+                },
+                {
+                  "quantity": "3",
+                  "name": "Saucy Wench",
+                  "power": "3",
+                  "ability": "You may destroy a minion of power 2 or less on this base."
+                },
+                {
+                  "quantity": "4",
+                  "name": "First Mate",
+                  "power": "2",
+                  "ability": "Special: After this base is scored, you may move this minion to another base instead of the discard pile."
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "2",
+                  "name": "Broadside",
+                  "ability": "Destroy all of one player's minions of power 2 or less on a base where you have a minion."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Cannon",
+                  "ability": "Destroy up to two minions of power 2 or less."
+                },
+                {
+                  "quantity": "2",
+                  "name": "Dinghy",
+                  "ability": "Move up to two of your minions to other bases."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Full Sail",
+                  "ability": "Move any number of your minions to other bases. Special: Before a base scores, you may play this card."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Powderkeg",
+                  "ability": "Destroy one of your minions and all minions with equal or less power on the same base."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Shanghai",
+                  "ability": "Move another player's minion to another base."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Sea Dogs",
+                  "ability": "Name a faction. Move all other players' minions of that faction from one base to another."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Swashbuckling",
+                  "ability": "Each of your minions gains +1 power until the end of the turn."
+                }
+              ]
+            }
+          },
+          {
+            "title": "Robots",
+            "description": "Play several weak minions in a single turn, often with power bonuses or useful abilities.",
+            "image": "https://vignette4.wikia.nocookie.net/smashup/images/e/e1/Robots.png",
+            "deck": {
+              "description": "Captains of industry built the robots, and then the robots took over and made the process even more efficient! Now they can churn out more little, highly specialized bots than their enemies can handle. Oh, and a few massive ones as well....",
+              "minions": [
+                {
+                  "quantity": "1",
+                  "name": "Nukebot",
+                  "power": "5",
+                  "ability": "Ongoing: After this minion is destroyed, destroy each other player's minions on this base."
+                },
+                {
+                  "quantity": "2",
+                  "name": "Warbot",
+                  "power": "4",
+                  "ability": "Ongoing: This minion cannot be destroyed."
+                },
+                {
+                  "quantity": "3",
+                  "name": "Hoverbot",
+                  "power": "3",
+                  "ability": "Reveal the top card of your deck. If it is a minion, you may play it as an extra minion. Otherwise, return it to the top of your deck."
+                },
+                {
+                  "quantity": "4",
+                  "name": "Zapbot",
+                  "power": "2",
+                  "ability": "You may play an extra minion of power 2 or less."
+                },
+                {
+                  "quantity": "2",
+                  "name": "Microbot Fixer",
+                  "power": "1",
+                  "ability": "If this is the first minion you played this turn, you may play an extra minion. Ongoing: Each of your Microbots gains +1 power."
+                },
+                {
+                  "quantity": "2",
+                  "name": "Microbot Guard",
+                  "power": "1",
+                  "ability": "Destroy a minion on this base with power less than the number of minions you have here."
+                },
+                {
+                  "quantity": "2",
+                  "name": "Microbot Reclaimer",
+                  "power": "1",
+                  "ability": "If this is the first minion you played this turn, you may play an extra minion. Shuffle any number of Microbots from your discard pile into your deck."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Microbot Alpha",
+                  "power": "1",
+                  "ability": "Ongoing: Gains +1 power for each of your other Microbots. All of your minions are considered Microbots."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Microbot Archive",
+                  "power": "1",
+                  "ability": "Ongoing: After one of your Microbots (including this one) is destroyed, draw a card."
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "2",
+                  "name": "Tech Center",
+                  "ability": "Choose a base. Draw one card for each of your minions there."
+                }
+              ]
+            }
+          },
+          {
+            "title": "Tricksters",
+            "description": "Force other players to discard and make bases undesirable to play on.",
+            "image": "https://vignette4.wikia.nocookie.net/smashup/images/4/42/Tricksters.png",
+            "deck": {
+              "description": "Stealing things, stopping things, starting things, hiding your keys in the morning, collecting underpants for profit... for years, you've thought of these little people as pests. Now they've turned up as pesticide.",
+              "minions": [
+                {
+                  "quantity": "1",
+                  "name": "Leprechaun",
+                  "power": "5",
+                  "ability": "Ongoing: After another player plays a minion here with less power than this minion's power, destroy it (resolve its ability first)."
+                },
+                {
+                  "quantity": "2",
+                  "name": "Brownie",
+                  "power": "4",
+                  "ability": "Ongoing: After another player plays a card that affects this minion, that player discards two random cards."
+                },
+                {
+                  "quantity": "3",
+                  "name": "Gnome",
+                  "power": "3",
+                  "ability": "You may destroy a minion on this base with power less than the number of minions you have here."
+                },
+                {
+                  "quantity": "4",
+                  "name": "Gremlin",
+                  "power": "2",
+                  "ability": "Ongoing: After this minion is destroyed, draw a card and each other player discards a random card."
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "1",
+                  "name": "Block the Path",
+                  "ability": "Play on a base and name a faction. Ongoing: Minions of that faction cannot be played here."
+                },
+                {
+                  "quantity": "2",
+                  "name": "Disenchant",
+                  "ability": "Destroy an action that has been played on a minion or base."
+                },
+                {
+                  "quantity": "2",
+                  "name": "Enshrouding Mist",
+                  "ability": "Play on a base. Ongoing: On your turn, you may play an extra minion here."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Flame Trap",
+                  "ability": "Play on a base. Ongoing: After another player plays a minion here, destroy it (resolve its ability first) and this card."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Hideout",
+                  "ability": "Play on a base. Ongoing: If another player's action would affect your minions here, destroy this card and the action does not affect your minions."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Mark of Sleep",
+                  "ability": "Choose a player. That player cannot play actions on his or her next turn."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Pay the Piper",
+                  "ability": "Play on a base. Ongoing: After another player plays a minion here, that player discards a card."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Take the Shinies",
+                  "ability": "Each other player discards two random cards."
+                }
+              ]
+            }
+          },
+          {
+            "title": "Wizards",
+            "description": "Draw and play extra cards each turn, especially actions.",
+            "image": "https://vignette4.wikia.nocookie.net/smashup/images/2/2a/Wizards.png",
+            "deck": {
+              "description": "Presto! Wizards conjure what they need with actions galore. They just keep pulling things out of their hats, so watch their hands. Or their hats... or that big portal to another reality they just opened in your kitchen.",
+              "minions": [
+                {
+                  "quantity": "1",
+                  "name": "Archmage",
+                  "power": "4",
+                  "ability": "Ongoing: You may play an extra action on each of your turns."
+                },
+                {
+                  "quantity": "2",
+                  "name": "Chronomage",
+                  "power": "3",
+                  "ability": "You may play an extra action this turn."
+                },
+                {
+                  "quantity": "3",
+                  "name": "Enchantress",
+                  "power": "2",
+                  "ability": "Draw a card."
+                },
+                {
+                  "quantity": "4",
+                  "name": "Neophyte",
+                  "power": "2",
+                  "ability": "Reveal the top card of your deck. If it is an action, you may place it in your hand or play it as an extra action. Otherwise, return it to the top of your deck."
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "1",
+                  "name": "Mass Enchantment",
+                  "ability": "Reveal the top card of each other player's deck. Play one revealed action as an extra action. Return unused cards to the top of their decks."
+                },
+                {
+                  "quantity": "2",
+                  "name": "Mystic Studies",
+                  "ability": "Draw two cards."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Portal",
+                  "ability": "Reveal the top five cards of your deck. Place any number of minions revealed into your hand. Return the other cards to the top of your deck in any order."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Sacrifice",
+                  "ability": "Choose one of your minions. Draw cards equal to its power. Destroy that minion."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Scry",
+                  "ability": "Search your deck for an action and reveal it to all players. Place it into your hand and shuffle your deck."
+                },
+                {
+                  "quantity": "2",
+                  "name": "Summon",
+                  "ability": "Play an extra minion."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Time Loop",
+                  "ability": "Play two extra actions."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Winds of Change",
+                  "ability": "Shuffle your hand into your deck and draw five cards. You may play an extra action."
+                }
+              ]
+            }
+          },
+          {
+            "title": "Zombies",
+            "description": "Play minions from the discard pile or place them into your deck/hand.",
+            "image": "https://vignette4.wikia.nocookie.net/smashup/images/4/44/Zombies.png",
+            "deck": {
+              "description": "They’re coming to get you, Player 2.” It's hard to keep a good walker down. Zombies just keep coming back, and sometimes they come in waves. Sending zombies to the discard pile isn't “so long,” it's just “see you later!",
+              "minions": [
+                {
+                  "quantity": "1",
+                  "name": "Zombie Lord",
+                  "power": "5",
+                  "ability": "You may play an extra minion of power 2 or less from your discard pile on each base where you have no minions."
+                },
+                {
+                  "quantity": "2",
+                  "name": "Grave Digger",
+                  "power": "4",
+                  "ability": "You may place a minion from your discard pile into your hand."
+                },
+                {
+                  "quantity": "3",
+                  "name": "Tenacious Z",
+                  "power": "2",
+                  "ability": "Special: During your turn you may play this card from your discard pile as an extra minion. You may only use the ability of one Tenacious Z each turn."
+                },
+                {
+                  "quantity": "4",
+                  "name": "Walker",
+                  "power": "2",
+                  "ability": "Look at the top card of your deck. Discard it or return it to the top of your deck."
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "2",
+                  "name": "Grave Robbing",
+                  "ability": "Place a card from your discard pile into your hand."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Lend a Hand",
+                  "ability": "Shuffle any number of cards from your discard pile into your deck."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Mall Crawl",
+                  "ability": "Search your deck for any number of cards with the same name and place them into your discard pile. Shuffle your deck."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Not Enough Bullets",
+                  "ability": "Place any number of minions with the same name from your discard pile into your hand."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Outbreak",
+                  "ability": "Play an extra minion on a base where you have no minions."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Overrun",
+                  "ability": "Play on a base. Ongoing: Other players cannot play minions on this base. Destroy this action at the start of your turn."
+                },
+                {
+                  "quantity": "2",
+                  "name": "They Keep Coming",
+                  "ability": "Play an extra minion from your discard pile."
+                },
+                {
+                  "quantity": "1",
+                  "name": "They're Coming To Get You",
+                  "ability": "Play on a base. Ongoing: On your turn, you may play a minion here from your discard pile instead of from your hand."
+                }
+              ]
+            }
+          }
+        ],
+        "checked": true
+      },
+      {
+        "name": "Awesome Level 9000",
+        "factions": [
+          {
+            "title": "Bear Cavalry",
+            "description": "Move and destroy other players' minions on bases you have minions on.",
+            "image": "https://vignette4.wikia.nocookie.net/smashup/images/1/1e/Bear_Cavalry.png",
+            "deck": {
+              "description": "The Tsar wasn't satisfied with mere horses. So you're pretty much screwed. You can run away from them. Or you can get killed. Sometimes you get both. Just count yourself lucky that the bears aren't also riding sharks.",
+              "minions": [
+                {
+                  "quantity": "1",
+                  "name": "General Ivan",
+                  "power": "6",
+                  "ability": "Ongoing: Your minions cannot be destroyed."
+                },
+                {
+                  "quantity": "2",
+                  "name": "Polar Commando",
+                  "power": "4",
+                  "ability": "Ongoing: If this is your only minion on this base, it has +2 power and cannot be destroyed."
+                },
+                {
+                  "quantity": "3",
+                  "name": "Bear Cavalry",
+                  "power": "3",
+                  "ability": "Move another player's minion from here to another base."
+                },
+                {
+                  "quantity": "4",
+                  "name": "Cub Scout",
+                  "power": "3",
+                  "ability": "Ongoing: After another player's minion moves here, if it has less power than this minion, destroy it."
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "1",
+                  "name": "Bear Hug",
+                  "ability": "Each other player destroys his or her minion with the least power (owner chooses in case of ties)."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Bear Necessities",
+                  "ability": "Destroy an action that has been played on a minion or base."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Bear Rides You",
+                  "ability": "Move one of your minions to another base."
+                },
+                {
+                  "quantity": "2",
+                  "name": "Commission",
+                  "ability": "Play an extra minion. Then move another player's minion from the extra minion's base to another base."
+                },
+                {
+                  "quantity": "1",
+                  "name": "High Ground",
+                  "ability": "Play on a base. Ongoing: If you have a minion here, destroy any other player's minion that moves here."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Superiority",
+                  "ability": "Play on a base. Ongoing: Your minions here cannot be destroyed, moved, or returned to your hand or deck by other players' cards."
+                },
+                {
+                  "quantity": "1",
+                  "name": "You're Pretty Much Borscht",
+                  "ability": "Choose a base where you have a minion. Move all other players' minions from there to one other base."
+                },
+                {
+                  "quantity": "2",
+                  "name": "You're Screwed",
+                  "ability": "Choose a base where you have a minion. Move another player's minion from there to another base."
+                }
+              ]
+            }
+          },
+          {
+            "title": "Ghosts",
+            "description": "Can shrink hand size and gains benefits from having 2 or fewer cards in your hand.",
+            "image": "https://vignette4.wikia.nocookie.net/smashup/images/7/7f/Ghosts.png",
+            "deck": {
+              "description": "In that darkest night at the old mansion an eerie light shone through the attic windows... even though no one was home. Ethereal ghosts gain power by having less of the tangible world. The faster you empty your hand, the stronger these spooks become!",
+              "minions": [
+                {
+                  "quantity": "1",
+                  "name": "Spectre",
+                  "power": "5",
+                  "ability": "Special: If you have 2 or fewer cards in your hand, any time you can play a minion, you can play this card from your discard pile instead."
+                },
+                {
+                  "quantity": "2",
+                  "name": "Haunting",
+                  "power": "3",
+                  "ability": "Ongoing: If you have two or fewer cards in your hand, this minion has +3 power and is not affected by other players' cards."
+                },
+                {
+                  "quantity": "3",
+                  "name": "Spirit",
+                  "power": "3",
+                  "ability": "Choose a minion. You may discard cards equal to its power to destroy it."
+                },
+                {
+                  "quantity": "4",
+                  "name": "Ghost",
+                  "power": "2",
+                  "ability": "You may discard a card from your hand."
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "1",
+                  "name": "Across the Divide",
+                  "ability": "Choose a card name. Place any number of minions with that name from your discard pile into your hand."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Door to the Beyond",
+                  "ability": "Play on a base. Ongoing: If you have two or fewer cards in your hand, each of your minions here has +2 power."
+                },
+                {
+                  "quantity": "2",
+                  "name": "Ghostly Arrival",
+                  "ability": "You may play an extra minion and/or an extra action."
+                },
+                {
+                  "quantity": "2",
+                  "name": "Incorporeal",
+                  "ability": "Play on one of your minions. Ongoing: This minion is not affected by other players' cards."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Make Contact",
+                  "ability": "You can only play this card if it is the last card in your hand. Play on a minion. Ongoing: Treat this minion as yours while it and this card are in play."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Seance",
+                  "ability": "If you have 2 or fewer cards in your hand, draw until you have 5 cards."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Shady Deal",
+                  "ability": "If you have two or fewer cards in your hand, gain 1 VP."
+                },
+                {
+                  "quantity": "1",
+                  "name": "The Dead Rise",
+                  "ability": "Discard any number of cards. Play an extra minion from your discard pile with power less than the number of cards you discarded."
+                }
+              ]
+            }
+          },
+          {
+            "title": "Killer Plants",
+            "description": "Grow more powerful on bases through multi-turn abilities, and base manipulation.",
+            "image": "https://vignette4.wikia.nocookie.net/smashup/images/8/85/Killer_Plants.png",
+            "deck": {
+              "description": "Feed them, Seymour! (Don't do it Seymour!) Because these guys grow all on their own. They become stronger the longer they remain in play, so plants can be a major problem for anyone who came to the table without garden shears.",
+              "minions": [
+                {
+                  "quantity": "1",
+                  "name": "Venus Man Trap",
+                  "power": "5",
+                  "ability": "Talent: Search your deck for a minion of power 2 or less and play it here as an extra minion. Shuffle your deck."
+                },
+                {
+                  "quantity": "2",
+                  "name": "Weed Eater",
+                  "power": "5",
+                  "ability": "This minion has -2 power on the turn you play it."
+                },
+                {
+                  "quantity": "3",
+                  "name": "Water Lily",
+                  "power": "3",
+                  "ability": "Ongoing: Draw a card at the start of each of your turns. Only use one Water Lily's ability each turn."
+                },
+                {
+                  "quantity": "4",
+                  "name": "Sprout",
+                  "power": "2",
+                  "ability": "Ongoing: Destroy this card at the start of your turn. You may search your deck for a minion of power 3 or less, and play it here as an extra minion. Shuffle your deck."
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "1",
+                  "name": "Blossom",
+                  "ability": "Play up to three extra minions that all have the same name."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Budding",
+                  "ability": "Choose a minion in play. Search your deck for a copy of that card and place it into your hand. Shuffle your deck."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Chokng Vines",
+                  "ability": "Play on a minion. Ongoing: At the start of your turn, destroy this minion."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Deep Roots",
+                  "ability": "Play on a base. Ongoing: Your minions here cannot be moved or returned to your hand by other players' abilities."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Entangled",
+                  "ability": "Play on a base. Ongoing: Minions may not be moved or returned to hands from any base where you have a minion. Destroy this card at the start of your turn."
+                },
+                {
+                  "quantity": "2",
+                  "name": "Insta-Grow",
+                  "ability": "Play an extra minion."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Overgrowth",
+                  "ability": "Play on a base. Ongoing: At the start of your turn, reduce the breakpoint of this base to 0."
+                },
+                {
+                  "quantity": "2",
+                  "name": "Sleep Spores",
+                  "ability": "Play on a base. Ongoing: Other players' minions have -1 power here (minimum power 0)."
+                }
+              ]
+            }
+          },
+          {
+            "title": "Steampunks",
+            "description": "Play powerful base actions that can be salvaged from the discard pile, and move minions and actions between bases.",
+            "image": "https://vignette4.wikia.nocookie.net/smashup/images/0/02/Steampunk.png",
+            "deck": {
+              "description": "Jules Verne once said, 'Hey, Steampunks. Nice threads.' Ever since that fateful day, these retronauts have been classing up the joint everywhere they go. Any base in the game will look smarter and be just a bit friendlier for full-on Steampunk domination.",
+              "minions": [
+                {
+                  "quantity": "1",
+                  "name": "Steam Queen",
+                  "power": "5",
+                  "ability": "Ongoing: Your actions are not affected by other players' cards."
+                },
+                {
+                  "quantity": "2",
+                  "name": "Mechanic",
+                  "power": "4",
+                  "ability": "Choose an action in your discard pile that can be played on a base and play it as an extra action."
+                },
+                {
+                  "quantity": "3",
+                  "name": "Steam Man",
+                  "power": "3",
+                  "ability": "Ongoing: Has +1 power if this base has one of your actions played on it."
+                },
+                {
+                  "quantity": "4",
+                  "name": "Captain Ahab",
+                  "power": "2",
+                  "ability": "Talent: Move this minion to a base that has one of your actions played on it."
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "1",
+                  "name": "Aggromotive",
+                  "ability": "Play on a base. Ongoing: If you have a minion here, you have +5 power here."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Change of Venue",
+                  "ability": "Place one of your actions that is on a base or minion into your hand. Play it again as an extra action."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Difference Engine",
+                  "ability": "Play on a base. Ongoing: If you have a minion here, draw an extra card at the end of your turn."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Escape Hatch",
+                  "ability": "Play on a base. Ongoing: When your minions here are destroyed, place them into your hand instead of the discard pile."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Ornate Dome",
+                  "ability": "Play on a base. Destroy all other players' actions played here. Ongoing: Other players cannot play actions on this base."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Rotary Slug Thrower",
+                  "ability": "Play on a base. Ongoing: Your minions here each have +2 power."
+                },
+                {
+                  "quantity": "2",
+                  "name": "Scrap Diving",
+                  "ability": "Place an action from your discard pile into your hand."
+                },
+                {
+                  "quantity": "2",
+                  "name": "Zeppelin",
+                  "ability": "Play on a base. Talent: Move one of your minions from another base to here, or from here to another base."
+                }
+              ]
+            }
+          }
+        ],
+        "checked": true
+      },
+      {
+        "name": "The Obligatory Cthulhu Set",
+        "factions": [
+          {
+            "title": "Elder Things",
+            "description": "This faction gives Madness to other players, and has strong minions that are difficult to play.",
+            "image": "https://vignette4.wikia.nocookie.net/smashup/images/6/62/Elder_Things.png",
+            "deck": {
+              "description": "From reaches beyond space and time come these incredible horrors, bent on... bent on... well we really don’t know, do we? Everytime we learn a little bit, we go nuts. Perhaps its the madness they cause that gives them power after all...",
+              "minions": [
+                {
+                  "quantity": "1",
+                  "name": "Elder Thing",
+                  "power": "10",
+                  "ability": "Destroy two of your other minions or place this minion on the bottom of your deck. This minion is not affected by opponents' cards."
+                },
+                {
+                  "quantity": "2",
+                  "name": "Shoggoth",
+                  "power": "6",
+                  "ability": "You can only play this minion on a base where you have at least 6 power. Each other player may draw a Madness card. Destroy a minion here belonging to each player who does not do so."
+                },
+                {
+                  "quantity": "3",
+                  "name": "Mi-go",
+                  "power": "3",
+                  "ability": "Each other player may draw a Madness card. For each other player that does not, you may draw a card."
+                },
+                {
+                  "quantity": "4",
+                  "name": "Byakhee",
+                  "power": "2",
+                  "ability": "Each other player with a minion at this base draws a Madness card."
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "2",
+                  "name": "Begin the Summoning",
+                  "ability": "Place a minion from your discard pile on top of your deck. You may play an extra action this turn."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Dunwich Horror",
+                  "ability": "Play on a minion. This minion gains 5 power. Destroy this minion at the end of the turn."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Insanity",
+                  "ability": "Each other player draws two Madness cards."
+                },
+                {
+                  "quantity": "2",
+                  "name": "Power of Madness",
+                  "ability": "All other players reveal their hands, discard all Madness cards and then shuffles their discard pile into their deck."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Each other player discards cards at random until that player discards a non-Madness card.",
+                  "ability": "Spreading Horror"
+                },
+                {
+                  "quantity": "1",
+                  "name": "The Price of Power",
+                  "ability": "Special: Before a base scores, all other players with minions there reveal their hand. One of your minions there has +2 power for each Madness card revealed."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Touch of Madness",
+                  "ability": "Each other player draws a Madness card. Draw a card and play an extra action this turn."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Unfathomable Goals",
+                  "ability": "All other players reveal his or her hands. Each player who reveals a Madness card must destroy one of their minions."
+                }
+              ]
+            }
+          },
+          {
+            "title": "Innsmouth",
+            "description": "Lots of power 2 minions that work together well and can be played in droves.",
+            "image": "https://vignette1.wikia.nocookie.net/smashup/images/b/be/Innsmouth.png",
+            "deck": {
+              "description": "Ah Innsmouth, idyllic little fishing village on the New England coast. Sample their excellent seafood. Become their excellent seafood! That’s right, you too can become a fish and live with Dagon below the depths. They may look like simple mutants, but in great numbers and with great power the residents of Innsmouth will welcome you into the fold. Or else.",
+              "minions": [
+                {
+                  "quantity": "10",
+                  "name": "The Locals",
+                  "power": "2",
+                  "ability": "Reveal the top three cards of your deck. Place any The Locals revealed into your hand. Put the rest of the cards on the bottom of your deck."
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "1",
+                  "name": "In Plain Sight",
+                  "ability": "Play on a base. Your minions here of power 2 or less are not affected by opponents' cards."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Mysteries of the Deep",
+                  "ability": "If you have three or more minions with the same name on a base, draw 3 cards, then you may draw 2 additional cards and 2 Madness cards."
+                },
+                {
+                  "quantity": "1",
+                  "name": "New Acolytes",
+                  "ability": "All players shuffle all minions in their discard piles into their decks."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Recruitment",
+                  "ability": "Draw up to three Madness cards. For each one drawn, you may play an extra minion this turn."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Return to the Sea",
+                  "ability": "Special: After a base scores, put any number of your minions with the same name on that base into your hand instead of the discard pile."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Sacred Circle",
+                  "ability": "Play on a base. Talent: You may play an extra minion here with the same name as another minion here."
+                },
+                {
+                  "quantity": "2",
+                  "name": "Spreading the Word",
+                  "ability": "Play up to two extra minions with the same name as a minion in play."
+                },
+                {
+                  "quantity": "2",
+                  "name": "The Deep Ones",
+                  "ability": "Each of your minions of power 2 or less get +1 power until the end of the turn."
+                }
+              ]
+            }
+          },
+          {
+            "title": "Minions of Cthulhu",
+            "description": "Play lots of actions, recover cards from the discard pile, and slow the game down all the while gaining Madness.",
+            "image": "https://vignette4.wikia.nocookie.net/smashup/images/a/ae/Minions_of_Cthulhu.png",
+            "deck": {
+              "description": "Ph’nglui mglw’nafh Cthulhu R’lyeh wgah’nagl fhtagn! Ph’nglui mglw’nafh Cthulhu R’lyeh wgah’nagl fhtagn! Ph’nglui mglw’nafh Cthulhu R’lyeh wgah’nagl fhtagn!",
+              "minions": [
+                {
+                  "quantity": "1",
+                  "name": "Star-Spawn of Cthulhu",
+                  "power": "5",
+                  "ability": "Talent: Place a Madness card from your hand into another player's hand."
+                },
+                {
+                  "quantity": "3",
+                  "name": "Cthulhu's Chosen",
+                  "power": "3",
+                  "ability": "Special: Before a base scores, you may draw a Madness card. This minion gets +2 power until the end of the turn."
+                },
+                {
+                  "quantity": "4",
+                  "name": "Servitor of Cthulhu",
+                  "power": "2",
+                  "ability": "Talent: Destroy this minion and place an action card from your discard pile on top of your deck."
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "1",
+                  "name": "Altar to Cthulhu",
+                  "ability": "Play on a base. Whenever you play a minion here, you may play an extra action that turn."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Complete the Ritual",
+                  "ability": "Play on a base where you have at least one minion. At the start of your turn, place all minions and actions on it on the bottom of their owners' decks and swap this base with the top card of the base deck."
+                },
+                {
+                  "quantity": "2",
+                  "name": "Corruption",
+                  "ability": "Draw a Madness card. Destroy a minion."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Cthulhu Fhtagn",
+                  "ability": "Reveal cards from the top of your deck until you have revealed two actions. Place them into your hand and put the rest of the cards on the bottom of your deck."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Furthering the Cause",
+                  "ability": "Play on a base. Ongoing: At the end of every turn, if another player's minion here was destroyed, gain 1 VP."
+                },
+                {
+                  "quantity": "1",
+                  "name": "It Begins Again",
+                  "ability": "Shuffle any number of actions from your discard pile into your deck."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Madness Unleashed",
+                  "ability": "Discard any number of Madness cards. For each one discarded, you may draw a card and play an extra action this turn."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Recruit by Force",
+                  "ability": "Place any number of minions of power 3 or less from your discard pile on top of your deck."
+                },
+                {
+                  "quantity": "1",
+                  "name": "The Seal is Broken",
+                  "ability": "Draw a Madness card. Gain 1 VP."
+                },
+                {
+                  "quantity": "2",
+                  "name": "Whispers in Darkness",
+                  "ability": "Draw a Madness card. You may play two extra actions this turn."
+                }
+              ]
+            }
+          },
+          {
+            "title": "Miskatonic University",
+            "description": "Gain, use, and lose Madness to accomplish a little of everything.",
+            "image": "https://vignette4.wikia.nocookie.net/smashup/images/0/02/Miskatonic_University-0.png",
+            "deck": {
+              "description": "Go ‘Pods! Go ‘Pods! Welcome to your first days at Miskatonic University! We will shape you into a student of the sciences both natural and... otherwise. Certainly our courses seem intense, but there always has to be a small sacrifice for knowledge. “Ex Ignorantia Ad Sapientiam; E Luce Ad Tenebras.”",
+              "minions": [
+                {
+                  "quantity": "1",
+                  "name": "Professor",
+                  "power": "5",
+                  "ability": "Talent: Discard a Madness card. If you do, you may play an extra action and/or an extra minion."
+                },
+                {
+                  "quantity": "2",
+                  "name": "Librarian",
+                  "power": "4",
+                  "ability": "Talent: Discard a Madness card. If you do, draw a card."
+                },
+                {
+                  "quantity": "3",
+                  "name": "Psychologist",
+                  "power": "3",
+                  "ability": "You may return a Madness card from your hand or discard pile to the Madness deck."
+                },
+                {
+                  "quantity": "4",
+                  "name": "Researcher",
+                  "power": "2",
+                  "ability": "You may draw a Madness card."
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "1",
+                  "name": "'Old Man Jenkins!?'",
+                  "ability": "Special: Before a base scores, destroy a minion with the highest power there."
+                },
+                {
+                  "quantity": "1",
+                  "name": "... It Just Might Work",
+                  "ability": "Discard a Madness card to give each of your minions +1 power until the end of the turn."
+                },
+                {
+                  "quantity": "2",
+                  "name": "Field Trip",
+                  "ability": "Place any number of cards from your hand on the bottom of your deck and draw a card for each card you place there."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Gate to Beyond",
+                  "ability": "Play on a base. Talent: Draw a Madness card. You may play an extra minion here."
+                },
+                {
+                  "quantity": "2",
+                  "name": "Jinkies!",
+                  "ability": "Return up to 2 Madness cards from your hand or discard pile to the Madness deck."
+                },
+                {
+                  "quantity": "1",
+                  "name": "That's So Crazy...",
+                  "ability": "Draw a Madness card. Each of your minions has +1 power until the end of the turn. You may play an extra action this turn."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Things Best Not Known",
+                  "ability": "Special: Before a base scores, choose a minion there. Draw up to 3 Madness cards. That minion gets +2 power for each Madness card you draw."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Those Meddling Kids",
+                  "ability": "Destroy any number of actions played on one base."
+                }
+              ]
+            }
+          }
+        ],
+        "checked": true
+      },
+      {
+        "name": "Science Fiction Double Feature",
+        "factions": [
+          {
+            "title": "Cyborg Apes",
+            "description": "Play lots of actions on minions to power them up.",
+            "image": "https://vignette1.wikia.nocookie.net/smashup/images/4/4f/Cyborg_Apes.png",
+            "deck": {
+              "description": "In a daring raid on a top secret research facility, apes stole the latest in cybernetic enhancements, and are now enacting their centuries-old plan to take over the world! Combining their natural athleticism and powerful strength with high-tech augmentations, these apes will go bananas all over your opponents!",
+              "minions": [
+                {
+                  "quantity": "1",
+                  "name": "Cyberback",
+                  "power": "5",
+                  "ability": "Ongoing: You may play actions onto this minion from your discard pile instead of from your hand."
+                },
+                {
+                  "quantity": "2",
+                  "name": "Clyde 2.0",
+                  "power": "4",
+                  "ability": "Ongoing: If your actions played on minions here go to the discard pile, you may place them into your hand instead."
+                },
+                {
+                  "quantity": "3",
+                  "name": "Baboom",
+                  "power": "3",
+                  "ability": "Talent: Play an action on this minion as an extra action."
+                },
+                {
+                  "quantity": "4",
+                  "name": "Furious George",
+                  "power": "2",
+                  "ability": "Ongoing: Has +1 power for each action played on it."
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "2",
+                  "name": "Cyberevolution",
+                  "ability": "Play on a minion. Ongoing: This minion has +3 power."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Flying Monkey",
+                  "ability": "Play on a minion. Special: After this base scores, you may move this minion to another base instead of the discard pile. Destroy this action."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Going Bananas",
+                  "ability": "Choose a base. Destroy other players' actions played on that base and on minions there."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Juiced Up",
+                  "ability": "Play on a minion. Ongoing: This minion has +2 power for each action on it (including this one)."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Missing Uplink",
+                  "ability": "Play on your minion. Ongoing: Draw an additional card at the end of your turn."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Monkey On Your Back",
+                  "ability": "Play on your minion. Talent: Destroy another player's minion here of power 4 or less. Place this card on the bottom of your deck."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Monkey See, Monkey Do",
+                  "ability": "Reveal the top 5 cards of your deck. Place any number of actions revealed into your hand. Shuffle the rest into your deck."
+                },
+                {
+                  "quantity": "2",
+                  "name": "Shielding",
+                  "ability": "Play on a minion. Ongoing: This minion and other actions on it are not affected by other players' actions."
+                }
+              ]
+            }
+          },
+          {
+            "title": "Shapeshifters",
+            "description": "Copy other players' power and abilities, destroy and replace minions.",
+            "image": "https://vignette2.wikia.nocookie.net/smashup/images/7/74/Shapeshifters.png",
+            "deck": {
+              "description": "Far below the surface of the earth, strange amorphous creatures have developed a thriving world, based on the manipulation of their own genetics. Now they plan to apply that knowledge to conquer our world above. Taking samples of the most powerful creatures and warriors they can find, these shapeshifters can use the best of whoever they copy.",
+              "minions": [
+                {
+                  "quantity": "1",
+                  "name": "Doppelganger",
+                  "power": "5",
+                  "ability": "Special: When this minion goes to the discard pile from a base, search your deck for a minion and play it as an extra minion. Shuffle your deck."
+                },
+                {
+                  "quantity": "2",
+                  "name": "G.E.L.F.",
+                  "power": "4",
+                  "ability": "Talent: Search your deck for a non-G.E.L.F. minion of power 4 or less. Shuffle this minion into your deck and play that minion here as an extra minion."
+                },
+                {
+                  "quantity": "3",
+                  "name": "Mimic",
+                  "power": "0",
+                  "ability": "Ongoing: This minion's power is equal to the highest power printed on a minion card in play."
+                },
+                {
+                  "quantity": "4",
+                  "name": "Copycat",
+                  "power": "2",
+                  "ability": "Choose another player's minion in play. This card has the same ability as that minion until the end of the turn."
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "1",
+                  "name": "... Really?",
+                  "ability": "Destroy one of your minions. Play an extra minion from your discard pile with the same or lower power."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Bacta the Future",
+                  "ability": "Destroy a minion. That minion's owner may immediately play an extra minion."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Cellular Bonding",
+                  "ability": "Play on a minion. Choose an action on a minion. Ongoing: This card has the abilities of the chosen action."
+                },
+                {
+                  "quantity": "2",
+                  "name": "Genetic Shift",
+                  "ability": "Either each of your minions gets +1 power until the end of the turn, or one of your minions gets +3 power until the end of the turn, your choice."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Mitosis",
+                  "ability": "Choose your minion in play. Play a copy of that card from your hand as an extra minion."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Shell Game",
+                  "ability": "Play on a minion. Ongoing: This minion cannot be destroyed."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Splice as Nice",
+                  "ability": "Play on a minion. Ongoing: This minion has +2 power."
+                },
+                {
+                  "quantity": "2",
+                  "name": "Transmogrify",
+                  "ability": "Destroy one of your minions. Search your deck for a minion with the same or lower power and play it as an extra minion. Shuffle your deck."
+                }
+              ]
+            }
+          },
+          {
+            "title": "Super Spies",
+            "description": "Sabotage other players' hands and deck while improving yours, and play specials while bases are scoring.",
+            "image": "https://vignette1.wikia.nocookie.net/smashup/images/3/3e/Super_Spies.png",
+            "deck": {
+              "description": "The shadow war between International Secret Intelligence and the evil HAVOC (Henchman and Villains of Chaos) continues. HAVOC’s schemes threaten the world, from weather-changing satellites to lasers mounted on secret moon bases, they can only be opposed by the daring agents of the ISI. Using the latest in espionage technology, the ISI will be able to foil your opponents plans.",
+              "minions": [
+                {
+                  "quantity": "1",
+                  "name": "Secret Agent",
+                  "power": "5",
+                  "ability": "Ongoing: After another player plays an action, he or she must discard a card."
+                },
+                {
+                  "quantity": "2",
+                  "name": "Mole",
+                  "power": "4",
+                  "ability": "Ongoing: Before this base scores, you may play an action as a Special action."
+                },
+                {
+                  "quantity": "3",
+                  "name": "Operative",
+                  "power": "3",
+                  "ability": "Reveal the top card of each player's deck. Place any of those cards on the bottom of their owner's deck. Return the other cards to the top of their decks."
+                },
+                {
+                  "quantity": "4",
+                  "name": "Spy",
+                  "power": "2",
+                  "ability": "Look at the top 3 cards of your deck. Place them on the top and/or bottom of your deck in any order."
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "1",
+                  "name": "Discards Are Forever",
+                  "ability": "All players reveal cards from their decks until they reveal a minion. Discard all revealed cards."
+                },
+                {
+                  "quantity": "2",
+                  "name": "For My Eyes Only",
+                  "ability": "Look at the top 5 cards of your deck. Place them on the top and/or bottom of your deck in any order."
+                },
+                {
+                  "quantity": "1",
+                  "name": "From Q With Love",
+                  "ability": "Draw three cards. Discard two cards."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Live and Let Chum",
+                  "ability": "Special: Play before a base scores. Destroy a minion of power 3 or less there."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Mindraker",
+                  "ability": "Play on a base. Ongoing: Other players cannot play Specials while this base is scoring."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Permit to Kill",
+                  "ability": "Each other player reveals the top two cards of his or her deck and discards any minions revealed. Return the other cards on the top of the deck in any order."
+                },
+                {
+                  "quantity": "1",
+                  "name": "The Base is Not Enough",
+                  "ability": "Special: Play before a base scores. Choose a minion there of power 4 or less. You control that minion until the end of the turn."
+                },
+                {
+                  "quantity": "2",
+                  "name": "The Spy Who Ditched Me",
+                  "ability": "All other players must discard a minion or reveal their hand to show they have no minions."
+                }
+              ]
+            }
+          },
+          {
+            "title": "Time Travelers",
+            "description": "Replay actions and minions, and avoid the discard pile by placing cards in your hand or the bottom of the your deck.",
+            "image": "https://vignette3.wikia.nocookie.net/smashup/images/e/e8/Time_Travelers.png",
+            "deck": {
+              "description": "The time stream has been compromised. Robots from the future mingle with pirates, extinct dinosaurs move with magical wizards... everything is all smashed up! That’s where the Time Patrol steps in. Organized in 1976 and led by the enigmatic Doctor When, the Time Patrol works to keep time flowing... in the manner they deem best.",
+              "minions": [
+                {
+                  "quantity": "1",
+                  "name": "Doctor When",
+                  "power": "5",
+                  "ability": "You may return another of your minions in play to your hand. You may play it again as an extra minion."
+                },
+                {
+                  "quantity": "2",
+                  "name": "Repeater Perfect",
+                  "power": "4",
+                  "ability": "Place an action from your discard pile on top of your deck."
+                },
+                {
+                  "quantity": "3",
+                  "name": "Time Raider",
+                  "power": "3",
+                  "ability": "Talent: Place a card from your discard pile on the bottom of your deck."
+                },
+                {
+                  "quantity": "4",
+                  "name": "Jumper",
+                  "power": "2",
+                  "ability": "Ongoing: When this minion goes to the discard pile (from play), you may place it back into your hand."
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "1",
+                  "name": "1.21 Gigawatts",
+                  "ability": "Shuffle all actions or all minions from your discard pile into your deck."
+                },
+                {
+                  "quantity": "2",
+                  "name": "Do Over!",
+                  "ability": "Return your minion from a base to your hand. You may play it again as an extra minion."
+                },
+                {
+                  "quantity": "2",
+                  "name": "Into the Time Slip",
+                  "ability": "Return a card in play to its owner's hand."
+                },
+                {
+                  "quantity": "1",
+                  "name": "It's Astounding",
+                  "ability": "Play an action from your discard pile as an extra action."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Statis Field",
+                  "ability": "Play on a base. Ongoing: This base cannot score. Destroy this action at the start of your turn."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Time is Fleeting",
+                  "ability": "Play after a base scores if there is a base in the discard pile. Add a base of your choice from the discard pile instead of drawing a new base from the base deck."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Time Walk",
+                  "ability": "You may play an extra minion and an extra action this turn. Draw 2 cards. Place this card on the bottom of your deck instead of your discard pile."
+                },
+                {
+                  "quantity": "1",
+                  "name": "Wormhole",
+                  "ability": "Special: Play after a base scores. Shuffle your minions there into your deck instead of placing them in the discard pile."
+                }
+              ]
+            }
+          }
+        ],
+        "checked": true
+      },
+      {
+        "name": "The Big Geeky Box",
+        "factions": [
+          {
+            "title": "Geeks",
+            "description": "Interrupt other players' turns to disrupt their plans.",
+            "image": "https://vignette4.wikia.nocookie.net/smashup/images/2/20/Geeks.png",
+            "deck": {
+              "description": "",
+              "minions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                }
+              ]
+            }
+          }
+        ],
+        "checked": true
+      },
+      {
+        "name": "Monster Smash",
+        "factions": [
+          {
+            "title": "Giant Ants",
+            "description": "Weak minions with lots of +1 power counters that can flexibly move and allocate them.",
+            "image": "https://vignette1.wikia.nocookie.net/smashup/images/c/c6/Giant_Ants-0.png",
+            "deck": {
+              "description": "",
+              "minions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                }
+              ]
+            }
+          },
+          {
+            "title": "Mad Scientists",
+            "description": "Play lots of +1 power counters, and gain bonuses for removing +1 power counters.",
+            "image": "https://vignette2.wikia.nocookie.net/smashup/images/6/65/Mad_Scientists.png",
+            "deck": {
+              "description": "",
+              "minions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                }
+              ]
+            }
+          },
+          {
+            "title": "Vampires",
+            "description": "Destroy your and others' minions to gain power counters.",
+            "image": "https://vignette1.wikia.nocookie.net/smashup/images/f/fd/Vampires.png",
+            "deck": {
+              "description": "",
+              "minions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                }
+              ]
+            }
+          },
+          {
+            "title": "Werewolves",
+            "description": "Strong minions with temporary power bursts, bonuses based on power, and destruction.",
+            "image": "https://vignette2.wikia.nocookie.net/smashup/images/f/f7/Werewolves.png",
+            "deck": {
+              "description": "",
+              "minions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                }
+              ]
+            }
+          }
+        ],
+        "checked": true
+      },
+      {
+        "name": "Pretty Pretty Smash Up",
+        "factions": [
+          {
+            "title": "Fairies",
+            "description": "Choose between effects and counter actions played on minions and bases.",
+            "image": "https://vignette1.wikia.nocookie.net/smashup/images/8/8e/Fairies.png",
+            "deck": {
+              "description": "",
+              "minions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                }
+              ]
+            }
+          },
+          {
+            "title": "Kitty Cats",
+            "description": "Temporarily take control of other players' minions, and destroy minions you control.",
+            "image": "https://vignette3.wikia.nocookie.net/smashup/images/d/d1/Kitty_Cats.png",
+            "deck": {
+              "description": "",
+              "minions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                }
+              ]
+            }
+          },
+          {
+            "title": "Mythic Horses",
+            "description": "Play multiple minions in a turn with bonuses for having multiple minions on the same base.",
+            "image": "https://vignette4.wikia.nocookie.net/smashup/images/d/dd/Mythic_Horses-0.png",
+            "deck": {
+              "description": "",
+              "minions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                }
+              ]
+            }
+          },
+          {
+            "title": "Princesses",
+            "description": " A few power 5 minions with powerful talents and abilities, and a diverse assortment of supporting actions.",
+            "image": "https://vignette4.wikia.nocookie.net/smashup/images/a/a6/Princesses.png",
+            "deck": {
+              "description": "",
+              "minions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                }
+              ]
+            }
+          }
+        ],
+        "checked": true
+      },
+      {
+        "name": "Smash Up: Munchkin",
+        "factions": [
+          {
+            "title": "Clerics",
+            "description": "Return cards from the discard pile and prevent cards from going to the discard pile.",
+            "image": "https://vignette2.wikia.nocookie.net/smashup/images/4/49/Clerics.png",
+            "deck": {
+              "description": "",
+              "minions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                }
+              ]
+            }
+          },
+          {
+            "title": "Dwarves",
+            "description": "Gain and play treasures to boost the power of your minions.",
+            "image": "https://vignette2.wikia.nocookie.net/smashup/images/a/ad/Dwarves.png",
+            "deck": {
+              "description": "",
+              "minions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                }
+              ]
+            }
+          },
+          {
+            "title": "Elves",
+            "description": "Help other players to indirectly help yourself at the right moment.",
+            "image": "https://vignette4.wikia.nocookie.net/smashup/images/3/39/Elves.png",
+            "deck": {
+              "description": "",
+              "minions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                }
+              ]
+            }
+          },
+          {
+            "title": "Halflings",
+            "description": "Draw many minions, play many minions and put minions on top of your deck.",
+            "image": "https://vignette2.wikia.nocookie.net/smashup/images/f/fc/Halflings.png",
+            "deck": {
+              "description": "",
+              "minions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                }
+              ]
+            }
+          },
+          {
+            "title": "Mages",
+            "description": "Discard cards to gain power, destroy minions, play extra cards, and manipulate monsters.",
+            "image": "https://vignette3.wikia.nocookie.net/smashup/images/d/d4/Mages.png",
+            "deck": {
+              "description": "",
+              "minions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                }
+              ]
+            }
+          },
+          {
+            "title": "Orcs",
+            "description": "Brute force against your opponents with bonuses for having more power than others.",
+            "image": "https://vignette3.wikia.nocookie.net/smashup/images/c/c9/Orcs-0.png",
+            "deck": {
+              "description": "",
+              "minions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                }
+              ]
+            }
+          },
+          {
+            "title": "Thieves",
+            "description": "Steal action cards in play, gain treasures, and sell treasures for VP.",
+            "image": "https://vignette2.wikia.nocookie.net/smashup/images/8/87/Thieves.png",
+            "deck": {
+              "description": "",
+              "minions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                }
+              ]
+            }
+          },
+          {
+            "title": "Warriors",
+            "description": "Play and destroy monsters on bases to manipulate the breakpoint and gain treasures.",
+            "image": "https://vignette4.wikia.nocookie.net/smashup/images/e/ee/Warriors.png",
+            "deck": {
+              "description": "",
+              "minions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                }
+              ]
+            }
+          }
+        ],
+        "checked": true
+      },
+      {
+        "name": "It's Your Fault!",
+        "factions": [
+          {
+            "title": "Dragons",
+            "description": "Break down bases and make them unattractive for other players with your presence.",
+            "image": "https://vignette2.wikia.nocookie.net/smashup/images/4/40/Dragons.png",
+            "deck": {
+              "description": "",
+              "minions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                }
+              ]
+            }
+          },
+          {
+            "title": "Mythic Greeks",
+            "description": "Get bonus power from playing the diverse \"favors of the gods\" (= actions).",
+            "image": "https://vignette3.wikia.nocookie.net/smashup/images/7/77/Mythic_Greeks-0.png",
+            "deck": {
+              "description": "",
+              "minions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                }
+              ]
+            }
+          },
+          {
+            "title": "Sharks",
+            "description": "Destroy minions below a certain power to get extra power and extra minion plays.",
+            "image": "https://vignette2.wikia.nocookie.net/smashup/images/4/4b/Sharks.png",
+            "deck": {
+              "description": "",
+              "minions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                }
+              ]
+            }
+          },
+          {
+            "title": "Superheroes",
+            "description": "Power 2 minions that can directly bring in a diverse crew of power 5 minions.",
+            "image": "https://vignette4.wikia.nocookie.net/smashup/images/d/d6/Superheroes.png",
+            "deck": {
+              "description": "",
+              "minions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                }
+              ]
+            }
+          },
+          {
+            "title": "Tornados",
+            "description": "Move minions. Move your own minions. Move other players' minions.",
+            "image": "https://vignette4.wikia.nocookie.net/smashup/images/b/b6/Tornados-0.png",
+            "deck": {
+              "description": "",
+              "minions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                }
+              ]
+            }
+          }
+        ],
+        "checked": true
+      },
+      {
+        "name": "Cease and Desist",
+        "factions": [
+          {
+            "title": "Astroknights",
+            "description": "Ten unique minions focus on drawing and playing cards to increase minion power.",
+            "image": "https://vignette4.wikia.nocookie.net/smashup/images/5/5f/Astro_Knights.png",
+            "deck": {
+              "description": "",
+              "minions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                }
+              ]
+            }
+          },
+          {
+            "title": "Changerbots",
+            "description": "Mobile faction where minions switch between having higher power or utilizing abillities.",
+            "image": "https://vignette3.wikia.nocookie.net/smashup/images/e/e3/Changerbots.png",
+            "deck": {
+              "description": "",
+              "minions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                }
+              ]
+            }
+          },
+          {
+            "title": "Ignobles",
+            "description": "Give control of your minions to others for benefits, often before taking them back.",
+            "image": "https://vignette3.wikia.nocookie.net/smashup/images/b/bf/Ignobles.png",
+            "deck": {
+              "description": "",
+              "minions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                }
+              ]
+            }
+          },
+          {
+            "title": "Star Roamers",
+            "description": "Cards work together to trigger and manipulate how your minions are affected.",
+            "image": "https://vignette2.wikia.nocookie.net/smashup/images/7/76/Star_Roamers.png",
+            "deck": {
+              "description": "",
+              "minions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                }
+              ]
+            }
+          }
+        ],
+        "checked": true
+      },
+      {
+        "name": "What Were We Thinking?",
+        "factions": [
+          {
+            "title": "Explorers",
+            "description": "Future base manipulation and knowledge, Move/Play extra minions on new bases to take early leads. move all over the place.",
+            "image": "https://vignette2.wikia.nocookie.net/smashup/images/1/17/Explorers.png",
+            "deck": {
+              "description": "",
+              "minions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                }
+              ]
+            }
+          },
+          {
+            "title": "Grannies",
+            "description": "Manipulate your deck, draw/play actions from the top of your deck and draw/play minions from the bottom of your deck.",
+            "image": "https://vignette2.wikia.nocookie.net/smashup/images/6/6f/Grannies.png",
+            "deck": {
+              "description": "",
+              "minions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                }
+              ]
+            }
+          },
+          {
+            "title": "Rock Stars",
+            "description": "Collect Groupies and gain advantages from bases with high breakpoints. Play and move many minions at once to break bases.",
+            "image": "https://vignette3.wikia.nocookie.net/smashup/images/8/81/Rock_Stars.png",
+            "deck": {
+              "description": "",
+              "minions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                }
+              ]
+            }
+          },
+          {
+            "title": "Teddy Bears",
+            "description": "Low power minions who rise in power to challenge opponents, with actions focused on neutralizing enemy threats and drawing more cards.",
+            "image": "https://vignette2.wikia.nocookie.net/smashup/images/e/e5/Teddy_Bears.png",
+            "deck": {
+              "description": "",
+              "minions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "power": "",
+                  "ability": ""
+                }
+              ],
+              "actions": [
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                },
+                {
+                  "quantity": "",
+                  "name": "",
+                  "ability": ""
+                }
+              ]
+            }
+          }
+        ],
+        "checked": true
+      }
+    ]
+  }
+}

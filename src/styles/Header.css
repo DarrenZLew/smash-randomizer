@@ -1,0 +1,31 @@
+.header {
+  margin-top: 1em;
+	background: rgb(32,146,209);
+	font-size: 1.1em;
+	padding-left: 15px;
+}
+
+.header-brand {
+	font-size: 1.8em;
+}
+
+.header-logo {
+	width: 100%;
+	height: 100%;
+}
+
+.navbar-default .navbar-brand {
+	color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: rgb(17,176,226);
+}
+
+.navbar-default .navbar-toggle {
+	border-color: #fff;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	background: rgba(232,231,239,0.6);
+}

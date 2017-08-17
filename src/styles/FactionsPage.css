@@ -1,0 +1,15 @@
+.factionspage-faction-title > h1 {
+	font-size: 4em;
+}
+
+.factionspage-deck-description {
+	font-size: 1.2em;
+}
+
+.factionspage-card {
+	font-size: 1.2em;	
+}
+
+.factionspage-card > h2 {
+	font-size: 2em;
+}
