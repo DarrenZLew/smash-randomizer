@@ -1,3 +1,7 @@
+.factionspage-faction-title.page-header {
+	margin: 0 auto;
+}
+
 .factionspage-faction-title > h1 {
 	font-size: 4em;
 }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import api from './utils/api';
+import { fetchSmashUpData } from './utils/api';
 import NavbarInstance from './components/Header';
 import RandomizePage from './components/RandomizePage';
 import FormSettings from './components/FormSettings';
@@ -9,7 +9,7 @@ import FactionsPage from './components/FactionsPage';
 import HistoryPage from './components/HistoryPage';
 import { Route, Switch } from 'react-router-dom';
 
-class App extends Component {
+export default class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -146,7 +146,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    api.fetchSmashUpData()
+    fetchSmashUpData()
       .then(function(response) {
         let selectedFactionsArr = response.data.sets.map(function(set) {
           return (
@@ -215,5 +215,3 @@ class App extends Component {
     );
   }
 }
-
-export default App;
