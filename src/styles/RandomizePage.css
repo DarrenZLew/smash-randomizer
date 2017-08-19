@@ -1,0 +1,100 @@
+.randomizeSettings-grid.container {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.randomizePage-alertInstance {
+	white-space: pre-wrap;
+}
+
+.randomizeButton {
+	background: #26c6da;
+	box-shadow: 0px 0px 5px black inset;
+	margin-bottom: 5px;
+}
+
+.randomizeButton:active:focus {
+	background: #00acc1;	
+	outline: none;
+	box-shadow: 0px 0px 10px black inset;
+}
+
+.randomizeButton:hover {
+	background: #26c6da;	
+	box-shadow: 0px 0px 10px black inset;
+}
+
+.randomizeButton:focus {
+	background: #26c6da;
+	box-shadow: 0px 0px 5px black inset;
+	outline: none;
+}
+
+.editSettingsButton {
+	background: #ffb74d;
+	box-shadow: 0px 0px 5px black inset;
+	margin-bottom: 5px;
+}
+
+.editSettingsButton:active:focus {
+	background: #ff9800;	
+	outline: none;
+	box-shadow: 0px 0px 10px black inset;
+}
+
+.editSettingsButton:hover {
+	background: #ffb74d;	
+	box-shadow: 0px 0px 10px black inset;
+}
+
+.editSettingsButton:focus {
+	background: #ffb74d;
+	box-shadow: 0px 0px 5px black inset;
+	outline: none;
+}
+
+.returnSettingsButton {
+	background: #ef5350;
+	box-shadow: 0px 0px 5px black inset;
+	margin-bottom: 5px;
+}
+
+.returnSettingsButton:active:focus {
+	background: #e53935;	
+	outline: none;
+	box-shadow: 0px 0px 10px black inset;
+}
+
+.returnSettingsButton:hover {
+	background: #ef5350;	
+	box-shadow: 0px 0px 10px black inset;
+}
+
+.returnSettingsButton:focus {
+	background: #ef5350;
+	box-shadow: 0px 0px 5px black inset;
+	outline: none;
+}
+
+.submitHistoryButton {
+	background: #fff59d;
+	box-shadow: 0px 0px 5px black inset;
+	margin: 0 auto 5px auto;
+}
+
+.submitHistoryButton:active:focus {
+	background: #ffee58;	
+	outline: none;
+	box-shadow: 0px 0px 10px black inset;
+}
+
+.submitHistoryButton:hover {
+	background: #ffee58;	
+	box-shadow: 0px 0px 10px black inset;
+}
+
+.submitHistoryButton:focus {
+	background: #ffee58;
+	box-shadow: 0px 0px 5px black inset;
+	outline: none;
+}

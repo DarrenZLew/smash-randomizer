@@ -1,11 +1,24 @@
 import React from 'react';
 import FactionSettings from './FactionSettings';
 import DisplayRandomizePlayers from './DisplayRandomizePlayers';
-import { Grid, Row, Col, Button } from 'react-bootstrap';
+import { Grid, Row, Col, Button, Alert } from 'react-bootstrap';
+import '../styles/RandomizePage.css';
 
-const RandomizePage = ( {smashUpData, selectedFactions, handleToggleFaction, handleRandomize, openSettings, results, playerFactions, playerNumber, handleReturnEditSettings, handleSubmitHistory, history} ) => {
+const RandomizePage = ( {smashUpData, selectedFactions, handleToggleFaction, handleRandomize, openSettings, results, playerFactions, playerNumber, factionNumber, handleReturnEditSettings, handleSubmitHistory, history, showAlert} ) => {
+  const currFactionsNum = Object.keys(selectedFactions).length
+  const neededFactionsNum = factionNumber * playerNumber - currFactionsNum
+  const alertInstance = (
+    <Alert className="randomizePage-alertInstance text-center" bsStyle="danger">
+      Select more factions.{'\n'}
+      You've selected <strong>{currFactionsNum}</strong> factions.
+      Choose at least <strong>{neededFactionsNum}</strong> more factions,
+      or update your player/faction number settings.
+    </Alert>
+  )
+
   return (
     <div>
+      {showAlert && alertInstance}
       <RandomizeSettingsButtons 
         handleRandomize={handleRandomize} 
         openSettings={openSettings} 

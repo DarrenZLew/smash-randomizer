@@ -23,7 +23,8 @@ export default class App extends Component {
       history: {
         checked: false,
         logArray: []
-      }
+      },
+      showAlert: false
     }
 
     this.handleRandomize = this.handleRandomize.bind(this);
@@ -69,12 +70,15 @@ export default class App extends Component {
   }
 
   openSettings() {
-    this.setState({ showSettings: true})
+    this.setState({ 
+      showSettings: true,
+      showAlert: false
+    })
   }
 
   handleRandomize() {
     const selectedFactionsArr = Object.keys(this.state.selectedFactions);
-    if (selectedFactionsArr.length > parseInt(this.state.playerNumber, 10) * 2) {
+    if (selectedFactionsArr.length >= parseInt(this.state.playerNumber, 10) * this.state.factionNumber) {
       const remainingFactions = selectedFactionsArr.map(function(faction) {
         return faction 
       });
@@ -104,17 +108,20 @@ export default class App extends Component {
         previousState.playerFactions = allPlayerFactions
         previousState.results = true
         previousState.history.checked = false
+        previousState.showAlert = false
         return previousState
       })
     }
     else {
-      console.log('not enough factions selected');
+      this.setState({
+        showAlert: true
+      })
     }
   }
 
   handleReturnEditSettings() {
     this.setState({
-      results: false
+      results: false,
     })
   }
 
@@ -140,7 +147,8 @@ export default class App extends Component {
     if (this.state.smashUpdata[setIndex].checked) {
       remainingFactions.hasOwnProperty(faction) ? delete remainingFactions[faction] : remainingFactions[faction] = faction; 
       this.setState({
-        selectedFactions: remainingFactions
+        selectedFactions: remainingFactions,
+        showAlert: false
       })    
     }
   }
@@ -197,9 +205,11 @@ export default class App extends Component {
                                                     results={this.state.results}
                                                     playerFactions={this.state.playerFactions}
                                                     playerNumber={this.state.playerNumber}
+                                                    factionNumber={this.state.factionNumber}
                                                     handleReturnEditSettings={this.handleReturnEditSettings}
                                                     handleSubmitHistory={this.handleSubmitHistory}
                                                     history={this.state.history}
+                                                    showAlert={this.state.showAlert}
                                                   />}
 
               />
