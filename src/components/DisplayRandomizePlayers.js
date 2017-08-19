@@ -9,7 +9,9 @@ const PlayerData = ({ playerFactions,playerNumber }) => {
 			{playerFaction.map((faction,index) => {
 				indexCounter++
 				return (
-					<ListGroupItem className="text-left playerdata-listgroupitem" key={playerFactions.factionIds[indexCounter-1]} >Faction {index+1} - {faction} </ListGroupItem>					
+					<ListGroupItem className="text-left playerdata-listgroupitem" key={playerFactions.factionIds[indexCounter-1]}>
+						Faction {index+1} - {faction} 
+					</ListGroupItem>					
 				)
 			})}
 			</Panel>

@@ -18,7 +18,7 @@ function Faction({ img,setIndex,factionName,selectedFactions,handleToggleFaction
   }
 
   return (
-      <Col xs={6} id={factionName} className={factionStyle.main} onClick={(event) => handleToggleFaction(event.currentTarget.id,setIndex)} >
+      <Col xs={12} sm={6} id={factionName} className={factionStyle.main} onClick={(event) => handleToggleFaction(event.currentTarget.id,setIndex)} >
         <div className={factionStyle.img}>
           <Image thumbnail src={img} alt={factionName} />
           <div className={factionStyle.text}>{factionName}</div>

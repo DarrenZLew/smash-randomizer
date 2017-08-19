@@ -10,7 +10,9 @@ const HistoryGame = ({game, gameNumber}) => {
 				{playerFaction.map((faction, index) => {
 					indexCounter++
 					return (
-						<ListGroupItem className="text-left historygame-listgroupitem" key={game.playerFactions.factionIds[indexCounter-1]}>{faction} </ListGroupItem>
+						<ListGroupItem className="text-left historygame-listgroupitem" key={game.playerFactions.factionIds[indexCounter-1]}>
+							{faction}
+						</ListGroupItem>
 					)
 				})}
 				</Panel>

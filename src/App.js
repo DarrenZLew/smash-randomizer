@@ -175,7 +175,16 @@ export default class App extends Component {
       <div>      
         <div className="container">
           <NavbarInstance />
-          <FormSettings smashUpData={this.state.smashUpdata} selectedPlayer={this.state.playerNumber} factionNumber={this.state.factionNumber} handleToggleSet={this.toggleSet} handlePlayerNumber={this.selectPlayerNumber} handleFactionNumber={this.selectFactionNumber} showSettings={this.state.showSettings} close={this.closeSettings} /> 
+          <FormSettings
+            smashUpData={this.state.smashUpdata} 
+            selectedPlayer={this.state.playerNumber} 
+            factionNumber={this.state.factionNumber} 
+            handleToggleSet={this.toggleSet} 
+            handlePlayerNumber={this.selectPlayerNumber} 
+            handleFactionNumber={this.selectFactionNumber} 
+            showSettings={this.state.showSettings} 
+            close={this.closeSettings} 
+          /> 
             {this.state.smashUpdata === null
             ? <h1>Loading</h1>
             : <Switch>
