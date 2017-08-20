@@ -99,24 +99,3 @@ div.container {
 .playerdata-listgroup {
 	margin: 0;
 }
-
-.historygame-listgroupitem {
-	padding: 5px 20px;
-	border: none;	
-}
-
-.historygame-listgroupitem-header > .panel-body {
-	padding: 0;
-}
-
-.historygame-listgroupitemrow-header {
-	font-size: 1.2em;
-	letter-spacing: 3px;
-	border: none;
-}
-
-.historygame-game {
-	border: 1px solid black;
-	margin: 0;
-}
-

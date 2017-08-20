@@ -1,5 +1,5 @@
 import React from 'react';
-import { ListGroup, ListGroupItem, Panel, Col, Row } from 'react-bootstrap';
+import { ListGroup, ListGroupItem, Panel, Col, Row, Grid } from 'react-bootstrap';
 import '../styles/HistoryPage.css';
 
 const HistoryGame = ({game, gameNumber}) => {
@@ -19,22 +19,43 @@ const HistoryGame = ({game, gameNumber}) => {
 			</Col>
 	))
 	return (
-		<ListGroup className="historygame-listgroup">
-			<ListGroupItem className="text-center historygame-listgroupitemrow-header">Game {gameNumber}</ListGroupItem>
-			{historyGameItem}
-		</ListGroup>		
+		<Row className="historygame-game">
+			<ListGroup className="historygame-listgroup">
+				{historyGameItem}
+			</ListGroup>
+		</Row>		
 	)
 }
 
-const HistoryPage = ({history}) => {
+const HistoryGameSummary = ({game, gameNumber, totalFactionsNum}) => {
+	function factorial(n) {
+		if (n === 0) {
+			return 1
+		}
+		return n * factorial(n - 1)
+	}
+	const combinationNumber = factorial(totalFactionsNum) / (factorial(game.factionNumber) * factorial(totalFactionsNum - game.factionNumber))
+	return (
+		<Row className="historygame-summary">
+			<Col className="text-center historygame-summary-header"><h3>Game {gameNumber} Summary</h3></Col>
+			<Col>Number of Players: {'\t'} {game.playerNumber}</Col>
+			<Col>Number of Factions Per Player: {'\t'} {game.factionNumber}</Col>
+			<Col>Factions Selected / Total Factions: {'\t'} {Object.keys(game.selectedFactions).length} / {totalFactionsNum} </Col>
+			<Col>Total Number of Faction Combinations: {'\t'} {combinationNumber} </Col>
+		</Row>
+	)
+}
+
+const HistoryPage = ({history, totalFactionsNum}) => {
 	const historyMessage = history.logArray.length === 0 ? "History log is currently empty." : ""
 	let gameNumber = 0;
 	const gameHistory = history.logArray.map((game,index) => {
-		gameNumber++;
+	gameNumber++;
 		return (
-			<Row key={index} className="historygame-game">
-				<HistoryGame game={game} gameNumber={gameNumber} />
-			</Row>
+			<Grid key={index} className="historygame-container" >
+				<HistoryGameSummary game={game} gameNumber={gameNumber} totalFactionsNum={totalFactionsNum}/>
+				<HistoryGame game={game} />
+			</Grid>
 		)
 	})
 

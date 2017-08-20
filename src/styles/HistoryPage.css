@@ -1,11 +1,41 @@
-.historygame-listgroupitemrow-header {
-	font-size: 1.5em;
-}
-
 .historygame-listgroupitem-header {
 	font-size: 1.2em;
 }
 
+.historygame-listgroupitem-header > .panel-body {
+	padding: 0;
+}
+
 .historygame-listgroupitem {
 	font-size: 1em;
+	padding: 5px 20px;
+	border: none;
+}
+
+.historygame-game {
+	padding-top: 10px;
+	margin: 0;
+	border: 1px solid black;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+}
+
+.historygame-summary {
+	padding: 0 40px;
+	margin: 0;
+	font-size: 1.1em;
+	white-space: pre-wrap;
+	border-top-right-radius: 30px;
+	border-top-left-radius: 30px;
+  background-image: url("../img/smashup-orangebackground.png");
+}
+
+.historygame-summary-header {
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+
+.historygame-container {
+	margin-bottom: 10px;
+	border-radius: 20px;
 }

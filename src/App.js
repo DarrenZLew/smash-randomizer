@@ -24,7 +24,8 @@ export default class App extends Component {
         checked: false,
         logArray: []
       },
-      showAlert: false
+      showAlert: false,
+      totalFactionsNum: 0
     }
 
     this.handleRandomize = this.handleRandomize.bind(this);
@@ -173,7 +174,8 @@ export default class App extends Component {
 
         this.setState({
           smashUpdata: response.data.sets,
-          selectedFactions: selectedFactionsObj
+          selectedFactions: selectedFactionsObj,
+          totalFactionsNum: selectedFactionsArr.length 
         })
       }.bind(this)) 
   }
@@ -225,7 +227,8 @@ export default class App extends Component {
                                                         />}
               />
               <Route path="/history" render={() => <HistoryPage 
-                                                   history={this.state.history}       
+                                                   history={this.state.history}  
+                                                   totalFactionsNum={this.state.totalFactionsNum}     
                                                   />} 
               />
             </Switch>}
