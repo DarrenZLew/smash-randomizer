@@ -154,30 +154,14 @@ export default class App extends Component {
     }
   }
 
-  componentDidMount() {
-    fetchSmashUpData()
-      .then(function(response) {
-        let selectedFactionsArr = response.data.sets.map(function(set) {
-          return (
-            set.factions.map(function(faction) {
-              return (
-                faction.title
-              )
-            })
-          )
-        });
-        selectedFactionsArr = [].concat.apply([],selectedFactionsArr);
-        let selectedFactionsObj = selectedFactionsArr.reduce(function(acc, curr, index) {
-          acc[curr] = curr
-          return acc
-        },{})
 
-        this.setState({
-          smashUpdata: response.data.sets,
-          selectedFactions: selectedFactionsObj,
-          totalFactionsNum: selectedFactionsArr.length 
-        })
-      }.bind(this)) 
+  componentDidMount() {
+    const data = fetchSmashUpData()
+    this.setState({
+      smashUpdata: data.sets,
+      selectedFactions: data.selectFacObj,
+      totalFactionsNum: data.selectFacArr.length 
+    })
   }
 
   render() {
