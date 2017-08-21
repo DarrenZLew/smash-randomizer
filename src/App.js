@@ -40,9 +40,9 @@ export default class App extends Component {
   }
 
   toggleSet(set,index) {
-    let remainingFactions = this.state.selectedFactions;
-    const data = this.state.smashUpdata;    
-    data[index].checked = !data[index].checked;
+    let remainingFactions = Object.assign({}, this.state.selectedFactions)
+    let data = this.state.smashUpdata
+    data[index].checked = !data[index].checked
     set.factions.map(faction => {
       if (data[index].checked && !remainingFactions.hasOwnProperty(faction.title)) {
         return remainingFactions[faction.title] = faction.title;
@@ -127,7 +127,7 @@ export default class App extends Component {
   }
 
   handleSubmitHistory() {
-    const history = this.state.history;
+    let history = Object.assign({}, this.state.history)
     if (!history.checked) {
       const currentHistory = {
         playerFactions: this.state.playerFactions,
@@ -135,16 +135,16 @@ export default class App extends Component {
         playerNumber: this.state.playerNumber,
         selectedFactions: this.state.selectedFactions
       }
-      history.checked = true;
-      history.logArray.push(currentHistory);      
-      this.setState({
-        history: history
+      this.setState(previousState => {
+        previousState.history.checked = true
+        previousState.history.logArray = [...previousState.history.logArray, currentHistory]
+        return previousState
       })
     }
   }
 
   handleToggleFaction(faction,setIndex) {
-    let remainingFactions = this.state.selectedFactions;
+    let remainingFactions = Object.assign({}, this.state.selectedFactions)
     if (this.state.smashUpdata[setIndex].checked) {
       remainingFactions.hasOwnProperty(faction) ? delete remainingFactions[faction] : remainingFactions[faction] = faction; 
       this.setState({
