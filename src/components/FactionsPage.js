@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom';
 import FontAwesome from 'react-fontawesome';
 import '../styles/FactionsPage.css';
 
-const MinionCardsSummary = ({minion, cardImage}) => {
+const CardsSummary = ({card, type, cardImage}) => {
 	const popoverClickRootClose = (
 	  <Popover id="popover-trigger-click-root-close">
-	    <Thumbnail src={cardImage} alt={minion.name}></Thumbnail>
+	    <Thumbnail src={cardImage} alt={card.name}></Thumbnail>
 	  </Popover>	
 	)
 	return (
@@ -15,26 +15,13 @@ const MinionCardsSummary = ({minion, cardImage}) => {
 			<OverlayTrigger trigger="click" rootClose placement="right" overlay={popoverClickRootClose} animation>
 				<FontAwesome name="picture-o"/>
 			</OverlayTrigger>
-			<span> {minion.quantity}x <strong>{minion.name}</strong> - Power {minion.power} - {minion.ability}</span>
+			{type === 'minion' ? (
+				<span> {card.quantity}x <strong>{card.name}</strong> - Power {card.power} - {card.ability}</span>	
+			) : (
+				<span> {card.quantity}x <strong>{card.name}</strong> - {card.ability} </span>
+			)}
 		</div>
-	)
-}
-
-const ActionCardsSummary = ({action, cardImage}) => {
-	const popoverClickRootClose = (
-	  <Popover id="popover-trigger-click-root-close">
-	    <Thumbnail src={cardImage} alt={action.name}></Thumbnail>
-	  </Popover>	
-	)
-
-	return (
-		<div>
-			<OverlayTrigger trigger="click" rootClose placement="right" overlay={popoverClickRootClose} animation>
-				<FontAwesome name="picture-o"/>
-			</OverlayTrigger>
-			<span> {action.quantity}x <strong>{action.name}</strong> - {action.ability} </span>
-		</div>
-	)
+	)	
 }
 
 const FactionsPage = ( {match, smashUpData, } ) => {
@@ -64,12 +51,19 @@ const FactionsPage = ( {match, smashUpData, } ) => {
 			<Well className="factionspage-card">
 				<h2>Minions</h2>
 				<div>
-					{faction.deck.minions.map((minion) => (<MinionCardsSummary key={minion.name} minion={minion} cardImage={faction.image} />))}
+					{faction.deck.minions.map((minion) => (<CardsSummary key={minion.name} card={minion} type='minion' cardImage={faction.image} />))}
 				</div>
 				<h2>Actions</h2>
 				<div>
-					{faction.deck.actions.map((action) => (<ActionCardsSummary key={action.name} action={action} cardImage={faction.image} />))}
+					{faction.deck.actions.map((action) => (<CardsSummary key={action.name} card={action} type='action' cardImage={faction.image} />))}
 				</div>
+				{faction.deck.titan &&
+					<div>
+						<h2>Titan</h2>
+						{faction.deck.titan.map((titan) => (<CardsSummary key={titan.name} card={titan} type='titan' cardImage={faction.image} />))}	
+					</div>
+				}
+
 			</Well>
 		</div>
 	)
