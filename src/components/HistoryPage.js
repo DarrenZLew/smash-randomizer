@@ -34,19 +34,23 @@ const HistoryGameSummary = ({game, gameNumber, totalFactionsNum}) => {
 		}
 		return n * factorial(n - 1)
 	}
-	const combinationNumber = factorial(totalFactionsNum) / (factorial(game.factionNumber) * factorial(totalFactionsNum - game.factionNumber))
+	// console.log(game)
+	const selectedFactionsNum = Object.keys(game.selectedFactions).length
+	// console.log(selectedFactionsNum)
+	const combinationNumber = factorial(selectedFactionsNum) / (factorial(game.factionNumber) * factorial(selectedFactionsNum - game.factionNumber))
 	return (
 		<Row className="historygame-summary">
 			<Col className="text-center historygame-summary-header"><h3>Game {gameNumber} Summary</h3></Col>
 			<Col>Number of Players: {'\t'} {game.playerNumber}</Col>
 			<Col>Number of Factions Per Player: {'\t'} {game.factionNumber}</Col>
-			<Col>Factions Selected / Total Factions: {'\t'} {Object.keys(game.selectedFactions).length} / {totalFactionsNum} </Col>
-			<Col>Total Number of Faction Combinations: {'\t'} {combinationNumber} </Col>
+			<Col>Factions Selected / Total Factions: {'\t'} {selectedFactionsNum} / {totalFactionsNum} </Col>
+			<Col>Number of Possible Faction Combinations: {'\t'} {combinationNumber} </Col>
 		</Row>
 	)
 }
 
 const HistoryPage = ({history, totalFactionsNum}) => {
+	// console.log(history)
 	const historyMessage = history.logArray.length === 0 ? "History log is currently empty." : ""
 	let gameNumber = 0;
 	const gameHistory = history.logArray.map((game,index) => {
