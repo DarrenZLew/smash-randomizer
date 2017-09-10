@@ -6,9 +6,11 @@ import '../styles/Header.css';
 const NavbarInstance = () => (
   <Navbar className="header" >
     <Navbar.Header>
+      <LinkContainer exact to="/"> 
         <Navbar.Brand className="header-brand">
          Smash Up!
-        </Navbar.Brand>     
+        </Navbar.Brand>
+      </LinkContainer>     
       <Navbar.Toggle />
     </Navbar.Header>
     <Navbar.Collapse>
@@ -16,14 +18,14 @@ const NavbarInstance = () => (
         <LinkContainer exact to="/">
           <NavItem>Randomizer</NavItem>
         </LinkContainer>
-        <LinkContainer to="/sets">
-          <NavItem>Sets</NavItem>
+        <LinkContainer to="/queensberry">
+          <NavItem>Queensberry</NavItem>
         </LinkContainer>
         <LinkContainer to="/history">
-          <NavItem>Randomizer History</NavItem>
-        </LinkContainer>
-        <LinkContainer to="/draftmode">
-          <NavItem>Draft Mode</NavItem>
+          <NavItem>History Game Log</NavItem>
+        </LinkContainer>                
+        <LinkContainer to="/sets">
+          <NavItem>Sets</NavItem>
         </LinkContainer>
       </Nav>
     </Navbar.Collapse>

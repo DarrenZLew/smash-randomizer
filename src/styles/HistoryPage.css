@@ -1,5 +1,6 @@
 .historygame-listgroupitem-header {
 	font-size: 1.2em;
+	border: none;
 }
 
 .historygame-listgroupitem-header > .panel-body {
@@ -10,32 +11,33 @@
 	font-size: 1em;
 	padding: 5px 20px;
 	border: none;
+	background: rgba(80, 200, 240, 0.6);
+	box-shadow: 0px 0px 10px black inset;
+}
+
+.historygame-listgroupitem-header > .panel-heading{
+	background: rgba(76, 175, 80, 0.7);
+	box-shadow: 0px 0px 10px black inset;		
 }
 
 .historygame-game {
-	padding-top: 10px;
 	margin: 0;
-	border: 1px solid black;
-	border-bottom-right-radius: 30px;
-	border-bottom-left-radius: 30px;
 }
 
 .historygame-summary {
 	padding: 0 40px;
-	margin: 0;
 	font-size: 1.1em;
 	white-space: pre-wrap;
-	border-top-right-radius: 30px;
-	border-top-left-radius: 30px;
-  background-image: url("../img/smashup-purplebackground.png");
 }
 
 .historygame-summary-header {
-	margin-top: 0;
 	margin-bottom: 5px;
+	font-size: 2em;
 }
 
 .historygame-container {
-	margin-bottom: 10px;
-	border-radius: 20px;
+	padding: 10px;
+	border-radius: 10px;
+	background: rgba(255, 235, 59, 0.2);
+	box-shadow: 0px 0px 10px black inset;
 }

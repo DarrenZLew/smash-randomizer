@@ -24,20 +24,19 @@ const CardsSummary = ({card, type, cardImage}) => {
 	)	
 }
 
-const FactionsPage = ( {match, smashUpData, } ) => {
+const FactionsPage = ({match, smashUpData }) => {
 	const factionName = match.params.faction;
-	const setName = match.params.set;
+	const setName = match.params.set.replace('%3F','?');
 	const set = smashUpData
 		.filter(set => set.name === setName)[0]
 		.factions.filter(faction => faction.title === factionName)
 	const faction = set[0]		
-	
 	return (
-		<div>
-			<Link to="/sets"><Button>Return to Sets Page</Button></Link>
+		<Well className="factionspage-container">
 			<PageHeader className="text-center factionspage-faction-title">{faction.title}</PageHeader>
-			<h3>{faction.description}</h3>
-			<Well>
+			<Link to="/sets"><Button className="factionspage-returnSettingsButton">Return to Sets Page</Button></Link>
+			<h3 className="text-center">{faction.description}</h3>
+			<Well className="factionspage-deck-description-container">
 				<Media>
 					<Media.Left align="middle">
 						<Image width={64} height={64} src={faction.image} alt={faction.title}/>
@@ -51,21 +50,21 @@ const FactionsPage = ( {match, smashUpData, } ) => {
 			<Well className="factionspage-card">
 				<h2>Minions</h2>
 				<div>
-					{faction.deck.minions.map((minion) => (<CardsSummary key={minion.name} card={minion} type='minion' cardImage={faction.image} />))}
+					{faction.deck.minions.map(minion => <CardsSummary key={minion.name} card={minion} type='minion' cardImage={faction.image} />)}
 				</div>
 				<h2>Actions</h2>
 				<div>
-					{faction.deck.actions.map((action) => (<CardsSummary key={action.name} card={action} type='action' cardImage={faction.image} />))}
+					{faction.deck.actions.map(action => (<CardsSummary key={action.name} card={action} type='action' cardImage={faction.image} />))}
 				</div>
 				{faction.deck.titan &&
 					<div>
 						<h2>Titan</h2>
-						{faction.deck.titan.map((titan) => (<CardsSummary key={titan.name} card={titan} type='titan' cardImage={faction.image} />))}	
+						{faction.deck.titan.map(titan => (<CardsSummary key={titan.name} card={titan} type='titan' cardImage={faction.image} />))}	
 					</div>
 				}
 
 			</Well>
-		</div>
+		</Well>
 	)
 }
 

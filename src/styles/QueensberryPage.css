@@ -1,0 +1,261 @@
+.queensberry-settings-container {
+	border-radius: 10px;
+	background: rgba(255, 235, 59, 0.3);
+	box-shadow: 0px 0px 10px black inset;
+	font-size: 1.1em;
+}
+
+.queensberry-settings-instructions-container {
+	border-radius: 30px;
+	background: rgba(156, 39, 176, 0.1);
+	box-shadow: 0px 0px 10px black inset;	
+}
+
+.queensberry-settings-instructions > li:first-child {
+	font-weight: bold;
+	font-size: 1.5em;
+	list-style-type: none;
+}
+
+.queensberry-settings-instructions > li {
+	font-size: 1.2em;
+}
+
+.queensberry-settings-groupSettings {
+	font-size: 1.2em;
+}
+
+.queensberry-settings-startButton {
+	background: rgba(76, 175, 80, 0.4);
+	box-shadow: 0px 0px 5px black inset;
+	color: #263238;
+}
+
+.queensberry-settings-startButton:active:focus {
+	background: rgba(76, 175, 80, 0.6);
+	box-shadow: 0px 0px 10px black inset;
+	outline: none;
+	color: white;
+}
+
+.queensberry-settings-startButton:hover {
+	background: rgba(76, 175, 80, 0.4);
+	box-shadow: 0px 0px 10px black inset;
+	color: white;
+}
+
+.queensberry-settings-startButton:focus {
+	background: rgba(76, 175, 80, 0.4);
+	box-shadow: 0px 0px 5px black inset;
+	outline: none;
+}
+
+.queensberry-selectFactions-container {
+	border-radius: 10px;
+	background: rgba(255, 235, 59, 0.3);
+	box-shadow: 0px 0px 10px black inset;
+	padding: 25px 10px;
+}
+
+.queensberry-selectFactions-container.row {
+	margin: 10px 0;
+}
+
+.queensberry-selectFactions-poolList {
+	margin-top: 10px;
+	margin-left: 0px;
+	font-size: 1.2em;
+	column-count: 2;
+	column-gap: 50px;
+}
+
+.queensberry-selectFactions-selectButton {
+	background: rgba(76, 175, 80, 0.4);
+	box-shadow: 0px 0px 5px black inset;	
+	margin-top: 10px;
+	color: #263238;
+}
+
+.queensberry-selectFactions-selectButton:active:focus {
+	background: rgba(76, 175, 80, 0.6);
+	box-shadow: 0px 0px 10px black inset;
+	outline: none;
+	color: white;	
+}
+
+.queensberry-selectFactions-selectButton:hover {
+	background: rgba(76, 175, 80, 0.4);
+	box-shadow: 0px 0px 10px black inset;
+	color: white;
+}
+
+.queensberry-selectFactions-selectButton:focus {
+	background: rgba(76, 175, 80, 0.4);
+	box-shadow: 0px 0px 5px black inset;
+	outline: none;
+}
+
+.queensberry-selectFactions-filter {
+	background: rgba(255, 255, 255, 0.8);
+	box-shadow: 0px 0px 5px black inset;	
+}
+
+.queensberry-selectFactions-select {
+	background: rgba(156, 39, 176, 0.1);	
+	box-shadow: 0px 0px 5px black inset;
+	margin-top: 10px;
+}
+
+.queensberry-page-returnSettingsButton {
+	background: #ef5350;
+	box-shadow: 0px 0px 5px black inset;
+	margin-bottom: 5px;
+	color: #263238;
+}
+
+.queensberry-page-returnSettingsButton:active:focus {
+	background: #e53935;	
+	outline: none;
+	box-shadow: 0px 0px 10px black inset;
+	color: white;
+}
+
+.queensberry-page-returnSettingsButton:hover {
+	background: #ef5350;	
+	box-shadow: 0px 0px 10px black inset;
+	color: white;
+}
+
+.queensberry-page-returnSettingsButton:focus {
+	background: #ef5350;
+	box-shadow: 0px 0px 5px black inset;
+	outline: none;
+}
+
+.queensberry-page-revertPrevSelectionButton {
+	background: rgba(3, 169, 244, 0.7);
+	box-shadow: 0px 0px 5px black inset;
+	margin-bottom: 5px;
+	color: #263238;
+}
+
+.queensberry-page-revertPrevSelectionButton:active:focus {
+	background: rgba(3, 169, 244, 0.8);
+	outline: none;
+	box-shadow: 0px 0px 10px black inset;
+	color: white;
+}
+
+.queensberry-page-revertPrevSelectionButton:hover {
+	background: rgba(3, 169, 244, 0.7);	
+	box-shadow: 0px 0px 10px black inset;
+	color: white;
+}
+
+.queensberry-page-revertPrevSelectionButton:focus {
+	background: rgba(3, 169, 244, 0.7);
+	box-shadow: 0px 0px 5px black inset;
+	outline: none;
+}
+
+.queensberry-page-submitButton {
+	background: rgba(3, 169, 244, 0.7);
+	box-shadow: 0px 0px 5px black inset;
+	margin-bottom: 5px;
+	color: #263238;
+}
+
+.queensberry-page-submitButton:active:focus {
+	background: rgba(3, 169, 244, 0.8);
+	outline: none;
+	box-shadow: 0px 0px 10px black inset;
+	color: white;
+}
+
+.queensberry-page-submitButton:hover {
+	background: rgba(3, 169, 244, 0.7);
+	box-shadow: 0px 0px 10px black inset;
+	color: white;
+}
+
+.queensberry-page-submitButton:focus {
+	background: rgba(3, 169, 244, 0.7);
+	box-shadow: 0px 0px 5px black inset;
+	outline: none;
+}
+
+.queensberry-page-historyButton {
+	background: #fff59d;
+	box-shadow: 0px 0px 5px black inset;
+	margin: 0 auto 5px auto;
+	color: #263238;
+}
+
+.queensberry-page-historyButton:active:focus {
+	background: #ffee58;	
+	outline: none;
+	box-shadow: 0px 0px 10px black inset;
+	color: white;
+}
+
+.queensberry-page-historyButton:hover {
+	background: #ffee58;	
+	box-shadow: 0px 0px 10px black inset;
+	color: white;
+}
+
+.queensberry-page-historyButton:focus {
+	background: #ffee58;
+	box-shadow: 0px 0px 5px black inset;
+	outline: none;
+}
+
+.queensberry-showFactions-listgroupitem-header > .panel-heading{
+	background: rgba(76, 175, 80, 0.7);
+	box-shadow: 0px 0px 10px black inset;
+}
+
+.queensberry-showFactions-listgroupitem-header {
+	font-size: 2em;
+	border: none;
+}
+
+.queensberry-showFactions-listgroupitem-header > .panel-body {
+	padding: 0;
+}
+
+.queensberry-showFactions-listgroupitem-header-FactionPool > .panel-heading{
+	background: rgba(76, 175, 80, 0.7);
+	box-shadow: 0px 0px 10px black inset;
+	margin: 0px 15px 5px 15px;
+}
+
+.queensberry-showFactions-listgroupitem {
+	font-size: 0.9em;
+	padding: 5px 10%;
+	border: none;
+	background: rgba(80, 200, 240, 0.6);
+	box-shadow: 0px 0px 10px black inset;
+}
+
+.queensberry-showFactions-listgroupitem-Active {
+	background: rgba(200, 50, 50, .7);
+	color: white;
+}
+
+button.queensberry-showFactions-listgroupitem {
+	text-align: center;
+}
+
+button.queensberry-showFactions-listgroupitem:active:focus {
+	background: rgba(80, 200, 220, 0.8);
+}
+
+button.queensberry-showFactions-listgroupitem:hover {
+	background: rgba(80, 200, 220, 0.8);
+}
+
+button.queensberry-showFactions-listgroupitem:focus {
+	background: rgba(80, 200, 220, 1);
+	color: white;
+}

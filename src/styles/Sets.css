@@ -1,35 +1,42 @@
-.sets-container {
-	border: 1px solid black;
-	display: flex;
-	flex-wrap: wrap;
+.sets-factionslist-listgroupitem.list-group-item {
 	padding: 0;
-	margin: 0;
+	border: none;
 }
 
-.sets-content {
-	flex: 1 0 300px;
-	border: 1px solid blue;
-}
-
-.sets-setName {
+.sets-listgroupitem-header > .panel-heading {
 	font-size: 2em;
-	width: 100%;
-	border: 1px solid red;
+	background: rgba(255, 233, 49, 0.6);
+	box-shadow: 0px 0px 15px black inset;
 }
 
-.sets-faction {
+.sets-listgroupitem-header > .panel-body {
+	padding: 0;
+}
+
+.list-group {
+	border: none;
+	margin-bottom: 0;
+}
+
+.panel {
+	border: none;
+}
+
+.sets-factionslist-panel {
+	margin: 0;
+	background: rgba(80, 200, 240, 0.6);
+	box-shadow: 0px 0px 15px black inset;
+}
+
+.sets-factionslist-panel:hover {
+	background: rgba(80, 200, 240, 0.9);
+}
+
+.sets-factionslist-col {
+	padding: 0;
+}
+
+.sets-factionslist-listgroupitem {
 	font-size: 1.5em;
-	list-style-type: none;
 }
 
-.sets-faction a {
-	letter-spacing: 1.5px;
-}
-
-.sets-faction a:hover {
-	color: green;
-}
-
-ul {
-	padding-left: 10px;
-}

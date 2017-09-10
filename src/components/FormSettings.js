@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Modal, FormGroup, FormControl, ControlLabel, Radio, Checkbox } from 'react-bootstrap';
+import { Button, Modal, FormGroup, ControlLabel, Radio, Checkbox } from 'react-bootstrap';
 
 const FormSettings = ( {smashUpData, showSettings, close, selectedPlayer, handlePlayerNumber, factionNumber, handleFactionNumber, handleToggleSet} ) => {
 	return (
@@ -10,7 +10,7 @@ const FormSettings = ( {smashUpData, showSettings, close, selectedPlayer, handle
 						<Modal.Title>Game Settings</Modal.Title>
 					</Modal.Header>
 					<Modal.Body>
-						<form>
+						<form className="formsettings-groupSettings">
 							<FormGroup controlId="playerNumbers">
 								<ControlLabel>Number of Players</ControlLabel>
 								<br />
@@ -34,16 +34,30 @@ const FormSettings = ( {smashUpData, showSettings, close, selectedPlayer, handle
 					        6
 					      </Radio>							
 							</FormGroup>
-					    <FormGroup controlId="gameMode">
-					      <ControlLabel>Game Mode</ControlLabel>
-					      <FormControl componentClass="select" placeholder="normal" value={factionNumber} onChange={handleFactionNumber}>
-					        <option value="1" >Randomize 1 Faction</option>
-					        <option value="2">Randomize 2 Factions (Normal Mode)</option>
-					        <option value="3">Randomize 3 Factions</option>
-					        <option value="4">Randomize 4 Factions</option>
-					        <option value="draft" disabled>Draft Mode</option>
-					      </FormControl>
-					    </FormGroup>
+
+
+							<FormGroup controlId="factionsPerPlayer">
+								<ControlLabel>Number of Players</ControlLabel>
+								<br />
+					      <Radio name="1" value="1" checked={factionNumber === '1'} onChange={handleFactionNumber} inline>
+					        1
+					      </Radio>
+					      {' '}
+					      <Radio name="2" value="2" checked={factionNumber === '2'} onChange={handleFactionNumber} inline>
+					        2 (Normal)
+					      </Radio>
+					      {' '}	
+					      <Radio name="3" value="3" checked={factionNumber === '3'} onChange={handleFactionNumber} inline>
+					        3
+					      </Radio>
+					      {' '}
+					      <Radio name="4" value="4" checked={factionNumber === '4'} onChange={handleFactionNumber} inline>
+					        4
+					      </Radio>							
+							</FormGroup>
+
+
+
 					    <FormGroup controlId="Enable Sets">
 					    	<ControlLabel>Enable Sets</ControlLabel>
 					    	{smashUpData.map((set,index) => {

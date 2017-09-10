@@ -4,7 +4,7 @@ import DisplayRandomizePlayers from './DisplayRandomizePlayers';
 import { Grid, Row, Col, Button, Alert } from 'react-bootstrap';
 import '../styles/RandomizePage.css';
 
-const RandomizePage = ( {smashUpData, selectedFactions, handleToggleFaction, handleRandomize, openSettings, results, playerFactions, playerNumber, factionNumber, handleReturnEditSettings, handleSubmitHistory, history, showAlert} ) => {
+const RandomizePage = ( {smashUpData, selectedFactions, handleToggleFaction, handleRandomize, openSettings, results, playerFactions, playerNumber, factionNumber, handleReturnEditSettings, handleSubmitHistory, historyCheck, showAlert} ) => {
   const currFactionsNum = Object.keys(selectedFactions).length
   const neededFactionsNum = factionNumber * playerNumber - currFactionsNum
   const alertInstance = (
@@ -19,13 +19,14 @@ const RandomizePage = ( {smashUpData, selectedFactions, handleToggleFaction, han
   return (
     <div>
       {showAlert && alertInstance}
+      <h1 className="text-center">Smash Up Deck Randomizer</h1>      
       <RandomizeSettingsButtons 
         handleRandomize={handleRandomize} 
         openSettings={openSettings} 
         handleReturnEditSettings={handleReturnEditSettings} 
         results={results}
         handleSubmitHistory={handleSubmitHistory}
-        history={history}
+        historyCheck={historyCheck}
       />
 
       {!results && <FactionSettings 
@@ -41,8 +42,8 @@ const RandomizePage = ( {smashUpData, selectedFactions, handleToggleFaction, han
   )
 }
 
-const RandomizeSettingsButtons = ( {handleRandomize, openSettings, handleReturnEditSettings, results, handleSubmitHistory, history} ) => {
-  const historyMessage = history.checked ? "Saved" : "Save to History Log"
+const RandomizeSettingsButtons = ( {handleRandomize, openSettings, handleReturnEditSettings, results, handleSubmitHistory, historyCheck} ) => {
+  const historyMessage = historyCheck ? "Saved" : "Save to History Log"
   return (
     <Grid className="randomizeSettings-grid">
       <Row>
@@ -56,7 +57,7 @@ const RandomizeSettingsButtons = ( {handleRandomize, openSettings, handleReturnE
       </Row>
       <Row>
         <Col sm={12}>
-          {results && <Button block className='submitHistoryButton' onClick={handleSubmitHistory}>{historyMessage}</Button>}
+          {results && <Button block className='submitHistoryButton' onClick={() => handleSubmitHistory()}>{historyMessage}</Button>}
         </Col>
       </Row>
     </Grid>

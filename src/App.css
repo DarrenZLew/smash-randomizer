@@ -24,12 +24,20 @@
 
 .factionimage-row {
 	height: 75px;
-	background: rgba(76, 175, 80, 0.5);
-	box-shadow: 0px 0px 25px black inset;
+	background: rgba(80, 200, 240, 0.6);
+	box-shadow: 0px 0px 10px black inset;
+}
+
+.factionimage-row:hover {
+	background: rgba(80, 200, 240, 0.9);
 }
 
 .factionimage-row-active {
 	background: rgba(76, 175, 80, 0.1);
+}
+
+.factionimage-row-active:hover {
+	background: rgba(176, 175, 80, 0.3);
 }
 
 .factionimage-factiontitle {
@@ -40,7 +48,8 @@
 }
 
 .factionimage-factiontitle-active {
-	text-decoration: line-through;	
+	text-decoration: line-through;
+	color: white;	
 }
 
 .factionslist-button {
@@ -53,8 +62,8 @@
 }
 
 .panel-default > .panel-heading {
-	background: #fff59d;
-	box-shadow: 0px 0px 10px black inset;
+	background: rgba(255, 233, 49, 0.6);
+	box-shadow: 0px 0px 15px black inset;
 }
 
 .panel-title>a {
@@ -81,7 +90,7 @@ div.container {
 
 .playerdata-listgroup-header > .panel-heading {
 	font-size: 2em;
-	background-image: url("./img/smashup-greenbackground2.png");
+	background: rgba(76, 175, 80, 0.7);
 	box-shadow: 0px 0px 10px black inset;
 }
 
@@ -93,9 +102,13 @@ div.container {
 	font-size: 1.5em;	
 	box-shadow: 0px 0px 10px black inset;
 	border: none;
-	background: rgba(80, 200, 200, 0.5);
+	background: rgba(80, 200, 240, 0.6);	
 }
 
 .playerdata-listgroup {
 	margin: 0;
+}
+
+.formsettings-groupSettings {
+	font-size: 1.2em;
 }

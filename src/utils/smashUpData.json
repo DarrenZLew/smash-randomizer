@@ -8,7 +8,7 @@
           "description": "Return minions to their owners' hands, gain victory points instantly, and manipulate bases.",
           "image": "https://vignette4.wikia.nocookie.net/smashup/images/5/50/Aliens.png",
           "deck": {
-            "description": "Aliens love to mess with people, and they love to mess with other players even more. From bouncing minions back to players’ hands, to replacing bases in play, aliens are out to have a great time, at any planet’s expense.",
+            "description": "Aliens love to mess with people, and they love to mess with other players even more. From bouncing minions back to players' hands, to replacing bases in play, aliens are out to have a great time, at any planet's expense.",
             "minions": [
               {
                 "quantity": "1",
@@ -84,7 +84,7 @@
           "description": "Play high-powered minions and actions with some protection and destruction.",
           "image": "https://vignette4.wikia.nocookie.net/smashup/images/6/68/Dinosaurs.png",
           "deck": {
-            "description": "If there's one thing dinosaurs know how to do... actually, with a brain the size of a walnut, they don't really know how to do anything. But they are big. And—holy cats!—someone gave them lasers!",
+            "description": "If there's one thing dinosaurs know how to do... actually, with a brain the size of a walnut, they don't really know how to do anything. But they are big. And holy cats! someone gave them lasers!",
             "minions": [
               {
                 "quantity": "1",
@@ -535,7 +535,7 @@
           "description": "Play minions from the discard pile or place them into your deck/hand.",
           "image": "https://vignette4.wikia.nocookie.net/smashup/images/4/44/Zombies.png",
           "deck": {
-            "description": "They’re coming to get you, Player 2.” It's hard to keep a good walker down. Zombies just keep coming back, and sometimes they come in waves. Sending zombies to the discard pile isn't “so long,” it's just “see you later!",
+            "description": "'They're coming to get you, Player 2.' It's hard to keep a good walker down. Zombies just keep coming back, and sometimes they come in waves. Sending zombies to the discard pile isn't 'so long,' it's just 'see you later!'",
             "minions": [
               {
                 "quantity": "1",
@@ -927,7 +927,7 @@
           "description": "This faction gives Madness to other players, and has strong minions that are difficult to play.",
           "image": "https://vignette4.wikia.nocookie.net/smashup/images/6/62/Elder_Things.png",
           "deck": {
-            "description": "From reaches beyond space and time come these incredible horrors, bent on... bent on... well we really don’t know, do we? Everytime we learn a little bit, we go nuts. Perhaps its the madness they cause that gives them power after all...",
+            "description": "From reaches beyond space and time come these incredible horrors, bent on... bent on... well we really don't know, do we? Everytime we learn a little bit, we go nuts. Perhaps its the madness they cause that gives them power after all...",
             "minions": [
               {
                 "quantity": "1",
@@ -1003,7 +1003,7 @@
           "description": "Lots of power 2 minions that work together well and can be played in droves.",
           "image": "https://vignette1.wikia.nocookie.net/smashup/images/b/be/Innsmouth.png",
           "deck": {
-            "description": "Ah Innsmouth, idyllic little fishing village on the New England coast. Sample their excellent seafood. Become their excellent seafood! That’s right, you too can become a fish and live with Dagon below the depths. They may look like simple mutants, but in great numbers and with great power the residents of Innsmouth will welcome you into the fold. Or else.",
+            "description": "Ah Innsmouth, idyllic little fishing village on the New England coast. Sample their excellent seafood. Become their excellent seafood! That's right, you too can become a fish and live with Dagon below the depths. They may look like simple mutants, but in great numbers and with great power the residents of Innsmouth will welcome you into the fold. Or else.",
             "minions": [
               {
                 "quantity": "10",
@@ -1061,7 +1061,7 @@
           "description": "Play lots of actions, recover cards from the discard pile, and slow the game down all the while gaining Madness.",
           "image": "https://vignette4.wikia.nocookie.net/smashup/images/a/ae/Minions_of_Cthulhu.png",
           "deck": {
-            "description": "Ph’nglui mglw’nafh Cthulhu R’lyeh wgah’nagl fhtagn! Ph’nglui mglw’nafh Cthulhu R’lyeh wgah’nagl fhtagn! Ph’nglui mglw’nafh Cthulhu R’lyeh wgah’nagl fhtagn!",
+            "description": "Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn! Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn! Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn!",
             "minions": [
               {
                 "quantity": "1",
@@ -1141,7 +1141,7 @@
           "description": "Gain, use, and lose Madness to accomplish a little of everything.",
           "image": "https://vignette4.wikia.nocookie.net/smashup/images/0/02/Miskatonic_University-0.png",
           "deck": {
-            "description": "Go ‘Pods! Go ‘Pods! Welcome to your first days at Miskatonic University! We will shape you into a student of the sciences both natural and... otherwise. Certainly our courses seem intense, but there always has to be a small sacrifice for knowledge. “Ex Ignorantia Ad Sapientiam; E Luce Ad Tenebras.”",
+            "description": "Go 'Pods! Go 'Pods! Welcome to your first days at Miskatonic University! We will shape you into a student of the sciences both natural and... otherwise. Certainly our courses seem intense, but there always has to be a small sacrifice for knowledge. 'Ex Ignorantia Ad Sapientiam; E Luce Ad Tenebras.'",
             "minions": [
               {
                 "quantity": "1",
@@ -1375,7 +1375,7 @@
           "description": "Sabotage other players' hands and deck while improving yours, and play specials while bases are scoring.",
           "image": "https://vignette1.wikia.nocookie.net/smashup/images/3/3e/Super_Spies.png",
           "deck": {
-            "description": "The shadow war between International Secret Intelligence and the evil HAVOC (Henchman and Villains of Chaos) continues. HAVOC’s schemes threaten the world, from weather-changing satellites to lasers mounted on secret moon bases, they can only be opposed by the daring agents of the ISI. Using the latest in espionage technology, the ISI will be able to foil your opponents plans.",
+            "description": "The shadow war between International Secret Intelligence and the evil HAVOC (Henchman and Villains of Chaos) continues. HAVOC's schemes threaten the world, from weather-changing satellites to lasers mounted on secret moon bases, they can only be opposed by the daring agents of the ISI. Using the latest in espionage technology, the ISI will be able to foil your opponents plans.",
             "minions": [
               {
                 "quantity": "1",
@@ -1451,7 +1451,7 @@
           "description": "Replay actions and minions, and avoid the discard pile by placing cards in your hand or the bottom of the your deck.",
           "image": "https://vignette3.wikia.nocookie.net/smashup/images/e/e8/Time_Travelers.png",
           "deck": {
-            "description": "The time stream has been compromised. Robots from the future mingle with pirates, extinct dinosaurs move with magical wizards... everything is all smashed up! That’s where the Time Patrol steps in. Organized in 1976 and led by the enigmatic Doctor When, the Time Patrol works to keep time flowing... in the manner they deem best.",
+            "description": "The time stream has been compromised. Robots from the future mingle with pirates, extinct dinosaurs move with magical wizards... everything is all smashed up! That's where the Time Patrol steps in. Organized in 1976 and led by the enigmatic Doctor When, the Time Patrol works to keep time flowing... in the manner they deem best.",
             "minions": [
               {
                 "quantity": "1",
@@ -1533,7 +1533,7 @@
           "description": "Interrupt other players' turns to disrupt their plans.",
           "image": "https://vignette4.wikia.nocookie.net/smashup/images/2/20/Geeks.png",
           "deck": {
-            "description": "Geeks are, well… Geeks! Slightly eccentric individuals with intellectual pursuits! They can also be thoughtful and tricky! You may also spot a couple of famous tabletop Geeks’ in there. Say hello and play them at least once!",
+            "description": "Geeks are, well... Geeks! Slightly eccentric individuals with intellectual pursuits! They can also be thoughtful and tricky! You may also spot a couple of famous tabletop Geeks' in there. Say hello and play them at least once!",
             "minions": [
               {
                 "quantity": "1",
@@ -1615,7 +1615,7 @@
           "description": "Weak minions with lots of +1 power counters that can flexibly move and allocate them.",
           "image": "https://vignette1.wikia.nocookie.net/smashup/images/c/c6/Giant_Ants-0.png",
           "deck": {
-            "description": "The future of atomic energy was never supposed to have this disastrous effect! Mutant ants spill out from giant hills, intent on destroying our homes and all else that stands in their colony’s way! The ants work as a great hive mind, spreading their power around as necessary to ensure their atomic-age victory!",
+            "description": "The future of atomic energy was never supposed to have this disastrous effect! Mutant ants spill out from giant hills, intent on destroying our homes and all else that stands in their colony's way! The ants work as a great hive mind, spreading their power around as necessary to ensure their atomic-age victory!",
             "minions": [
               {
                 "quantity": "1",
@@ -1767,7 +1767,7 @@
           "description": "Destroy your and others' minions to gain power counters.",
           "image": "https://vignette1.wikia.nocookie.net/smashup/images/f/fd/Vampires.png",
           "deck": {
-            "description": "From the dark gothic recesses of ancient brooding castles, draped in black velvet, and probably listening to Bauhaus, the children of the night come to drink deep from Smash Up! Draining the very life from their victims, these cursed souls will gain power upon destroying your opponents’ minions.",
+            "description": "From the dark gothic recesses of ancient brooding castles, draped in black velvet, and probably listening to Bauhaus, the children of the night come to drink deep from Smash Up! Draining the very life from their victims, these cursed souls will gain power upon destroying your opponents' minions.",
             "minions": [
               {
                 "quantity": "1",
@@ -1925,7 +1925,7 @@
           "description": "Choose between effects and counter actions played on minions and bases.",
           "image": "https://vignette1.wikia.nocookie.net/smashup/images/8/8e/Fairies.png",
           "deck": {
-            "description": "From deep in the magical glades come these little sprites, bringing magical wishes and pixie dust to your plans for world domination. Don’t judge them by their size. The Fairies’ magic gives you great options in how to deal with your enemies.",
+            "description": "From deep in the magical glades come these little sprites, bringing magical wishes and pixie dust to your plans for world domination. Don't judge them by their size. The Fairies' magic gives you great options in how to deal with your enemies.",
             "minions": [
               {
                 "quantity": "1",
@@ -2153,7 +2153,7 @@
           "description": " A few power 5 minions with powerful talents and abilities, and a diverse assortment of supporting actions.",
           "image": "https://vignette4.wikia.nocookie.net/smashup/images/a/a6/Princesses.png",
           "deck": {
-            "description": "Dream a dream of ruling over your enemies! Princesses will make every wish come true through the power of pure love and happiness. Which can be used, oddly, to order everyone about, and even destroy your enemies. Don’t be fooled: these innocent-looking beauties are few in number, but royal, strong and determined!",
+            "description": "Dream a dream of ruling over your enemies! Princesses will make every wish come true through the power of pure love and happiness. Which can be used, oddly, to order everyone about, and even destroy your enemies. Don't be fooled: these innocent-looking beauties are few in number, but royal, strong and determined!",
             "minions": [
               {
                 "quantity": "1",
@@ -3657,7 +3657,7 @@
               {
                 "quantity": "1",
                 "name": "Dr Livingstone, I Presume?",
-                "ability": "Choose a minion. If it is the only minion on its base, shuffle it into its owner’s deck."
+                "ability": "Choose a minion. If it is the only minion on its base, shuffle it into its owner's deck."
               },
               {
                 "quantity": "1",
@@ -3872,7 +3872,7 @@
                 "quantity": "3",
                 "name": "Lovey Bear",
                 "power": "3",
-                "ability": "Ongoing: This minion’s starting power is increased to the highest starting power of an opponent’s minion here."
+                "ability": "Ongoing: This minion's starting power is increased to the highest starting power of an opponent's minion here."
               },
               {
                 "quantity": "4",
@@ -3936,7 +3936,7 @@
           "description": "Play weak extra minions that go under your deck at the end of the turn.",
           "image": "https://vignette2.wikia.nocookie.net/smashup/images/7/71/Itty_Critters.png",
           "deck": {
-            "description": "They’re tiny, and they come and go quickly, but once you learn which one to call when, the Itty Critters can really pack a punch. We know you’ll want to have them all. If you can make these things as popular as certain other things (you know which ones) we’d be eternally grateful.",
+            "description": "They're tiny, and they come and go quickly, but once you learn which one to call when, the Itty Critters can really pack a punch. We know you'll want to have them all. If you can make these things as popular as certain other things (you know which ones) we'd be eternally grateful.",
             "minions": [
               {
                 "quantity": "1",
@@ -4043,7 +4043,7 @@
           "description": "Gain power through your base actions and destroy other players' cards.",
           "image": "https://vignette2.wikia.nocookie.net/smashup/images/e/ef/Kaiju-0.png",
           "deck": {
-            "description": "Giant monsters stomp around Tokyo, smashing countless buildings as they battle. Their amazing destructive power confounds scientists, whose greatest weaponry proves useless against them. Who can stop the massive power of a guy in a rubber suit? We know! We’ll let the precocious 10-year-old, with unexplained access to the Japanese military’s most secure facilities, talk to it!",
+            "description": "Giant monsters stomp around Tokyo, smashing countless buildings as they battle. Their amazing destructive power confounds scientists, whose greatest weaponry proves useless against them. Who can stop the massive power of a guy in a rubber suit? We know! We'll let the precocious 10-year-old, with unexplained access to the Japanese military's most secure facilities, talk to it!",
             "minions": [
               {
                 "quantity": "1",
@@ -4093,7 +4093,7 @@
               {
                 "quantity": "3",
                 "name": "Radioactive Breath",
-                "ability": "Play on a base. Destroy all minions you don’t control here of power 2 or less. Ongoing: You gain +3 power here."
+                "ability": "Play on a base. Destroy all minions you don't control here of power 2 or less. Ongoing: You gain +3 power here."
               },
               {
                 "quantity": "2",
@@ -4103,7 +4103,7 @@
               {
                 "quantity": "1",
                 "name": "Tail Smash",
-                "ability": "Play on a base. Destroy a minion you don’t control here of power 3 or less. Ongoing: You gain +4 power here."
+                "ability": "Play on a base. Destroy a minion you don't control here of power 3 or less. Ongoing: You gain +4 power here."
               },
               {
                 "quantity": "1",
@@ -4135,7 +4135,7 @@
           "description": "Abilities that get better the more minions you have on the same base.",
           "image": "https://vignette2.wikia.nocookie.net/smashup/images/e/e1/Magical_Girls.png",
           "deck": {
-            "description": "Moonlight, dreams, love, and starshine! OMG, it’s so kawaii!!!! The Magical Girls are undoubtedly cute, but they will surprise you with what they can do with their spells. And they work together as a team. Evil will have no chance against these girls.",
+            "description": "Moonlight, dreams, love, and starshine! OMG, it's so kawaii!!!! The Magical Girls are undoubtedly cute, but they will surprise you with what they can do with their spells. And they work together as a team. Evil will have no chance against these girls.",
             "minions": [
               {
                 "quantity": "1",
@@ -4147,7 +4147,7 @@
                 "quantity": "1",
                 "name": "Sakura Warrior",
                 "power": "4",
-                "ability": "Talent: Reduce a minion’s power here by the number of your minions here until the start of your next turn."
+                "ability": "Talent: Reduce a minion's power here by the number of your minions here until the start of your next turn."
               },
               {
                 "quantity": "1",
@@ -4165,7 +4165,7 @@
                 "quantity": "1",
                 "name": "Fancy Suit Lad",
                 "power": "3",
-                "ability": "Ongoing: Your other minions here are not affected by other players’ cards."
+                "ability": "Ongoing: Your other minions here are not affected by other players' cards."
               },
               {
                 "quantity": "1",
@@ -4216,7 +4216,7 @@
               {
                 "quantity": "1",
                 "name": "Lunar Healing Love Spell",
-                "ability": "Choose a minion in each player’s discard pile and place it into its owner’s hand."
+                "ability": "Choose a minion in each player's discard pile and place it into its owner's hand."
               },
               {
                 "quantity": "1",
@@ -4248,7 +4248,7 @@
           "description": "Special abilities that can help you during the scoring of bases.",
           "image": "https://vignette2.wikia.nocookie.net/smashup/images/f/ff/Mega_Troopers.png",
           "deck": {
-            "description": "Go go play on bases! Go go destroy minions! Go go Mega Troopers, You crazy Smash Up Mega Troopers! The Mega Troopers are the ultimate fighting team, snatching victory from the jaws of defeat. And should things get out of control, they can always call a giant frickin’ robot and auto-win. Which they should probably just do earlier in the fight, but whatever.",
+            "description": "Go go play on bases! Go go destroy minions! Go go Mega Troopers, You crazy Smash Up Mega Troopers! The Mega Troopers are the ultimate fighting team, snatching victory from the jaws of defeat. And should things get out of control, they can always call a giant frickin' robot and auto-win. Which they should probably just do earlier in the fight, but whatever.",
             "minions": [
               {
                 "quantity": "1",
@@ -4347,6 +4347,5 @@
       ],
       "checked": true
     }
-  ],
-  "data": {}
+  ]
 }
